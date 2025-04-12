@@ -16,7 +16,7 @@
   "dependencies": {
     "@iconify-json/fa-brands": "1.2.1",
     "@iconify-json/ph": "1.2.2",
-    "@vueuse/core": "13.0.0",
+    "@vueuse/core": "13.1.0",
     "calendar-link": "2.8.0",
     "leaflet": "1.9.4",
     "markdown-it": "14.1.0",
