@@ -194,3 +194,24 @@ body {
     column-gap: 20px;
   }
 }
+
+.container {
+  background-color: var(--vp-nav-bg-color);
+}
+
+.VPDoc-content {
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  .VPLocalNav.has-sidebar {
+    padding-left: 0px !important;
+  }
+}
+
+@media (min-width: 960px) {
+  .group {
+    display: flex;
+    justify-content: center;
+  }
+}
