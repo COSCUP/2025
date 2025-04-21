@@ -7,10 +7,10 @@ import VPNav from 'vitepress/dist/client/theme-default/components/VPNav.vue'
 import VPSkipLink from 'vitepress/dist/client/theme-default/components/VPSkipLink.vue'
 import { useSidebar } from 'vitepress/dist/client/theme-default/composables/sidebar.js'
 
-import { computed, provide, useSlots, watch } from 'vue'
+import { computed, provide, useSlots, watch, watchEffect } from 'vue'
 import VPContent from '/@/components/VPContent.vue'
 
-const { frontmatter } = useData()
+const { lang, frontmatter } = useData()
 
 const {
   isOpen: isSidebarOpen,
@@ -25,6 +25,12 @@ const slots = useSlots()
 const heroImageSlotExists = computed(() => !!slots['home-hero-image'])
 
 provide('hero-image-slot-exists', heroImageSlotExists)
+
+watchEffect(() => {
+  if (inBrowser) {
+    document.cookie = `lang=${lang.value};path=/`
+  }
+})
 </script>
 
 <template>
