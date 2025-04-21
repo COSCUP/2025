@@ -138,3 +138,24 @@
   padding-top: 0 !important;
   top: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + var(--vp-doc-top-height, 0px) + 48px) !important;
 }
+
+.container {
+  background-color: var(--vp-nav-bg-color);
+}
+
+.VPDoc-content {
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  .VPLocalNav.has-sidebar {
+    padding-left: 0px !important;
+  }
+}
+
+@media (min-width: 960px) {
+  .group {
+    display: flex;
+    justify-content: center;
+  }
+}
