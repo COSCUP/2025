@@ -93,13 +93,14 @@ function processSessionTypes(talksResponse: PretalxResponse<PretalxTalk>): Sessi
   })
 }
 
-function getSessionTags(talk: PretalxTalk): string[] {
+function getSessionTags(talk: PretalxTalk): Set<string> {
   const languageAnswer = talk.answers.find((answer) => answer.question.id === QUESTION_ID_SESSION_LANGUAGE)?.options[0]?.answer.en
   const languageTags: string[] = languageAnswer && LANGUAGE_MAPPING[languageAnswer] ? [LANGUAGE_MAPPING[languageAnswer]] : []
 
-  return languageTags
+  return new Set(languageTags
     .concat(talk.answers.find((answer) => answer.question.id === QUESTION_ID_SESSION_TAGS)?.options[0]?.answer.en ? [talk.answers.find((answer) => answer.question.id === QUESTION_ID_SESSION_TAGS)!.options[0].answer.en] : [])
     .concat(talk.tags?.includes('prime session') ? ['Prime'] : [])
+    .concat(talk.submission_type.en === 'prime session' ? ['Prime'] : []))
 }
 
 function processSessions(
@@ -128,7 +129,7 @@ function processSessions(
         description: getAnswerFromQuestions(talk, QUESTION_ID_SESSION_EN_DESC, talk.abstract || '') || '',
       },
       speakers: talk.speakers.map((speaker) => speaker.code),
-      tags: getSessionTags(talk).concat(talk.submission_type.en === 'prime session' ? ['Prime'] : []),
+      tags: Array.from(getSessionTags(talk)),
       co_write: collaborativeWritingMap[talk.code]?.URL || null,
       qa: getAnswerFromQuestions(talk, QUESTION_ID_SESSION_QA, null),
       slide: getAnswerFromQuestions(talk, QUESTION_ID_SESSION_SLIDE, null),
