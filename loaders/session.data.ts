@@ -1,11 +1,11 @@
 import type {
   Sessions,
-} from './sessions/types'
+} from './pretalx/types'
 import { conference } from '#data/conference'
 import { defineLoader } from 'vitepress'
-import { generateResult } from './sessions/processors'
+import { generateResult } from './pretalx/processors'
 
-export * from './sessions/types'
+export * from './pretalx/types'
 
 export declare const data: Sessions
 
