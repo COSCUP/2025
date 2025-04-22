@@ -107,7 +107,7 @@ function processSessions(
   talksResponse: PretalxResponse<PretalxTalk>,
   sessionTypes: SessionType[],
   collaborativeWritingMap: Record<string, CollaborativeWriting>,
-  year: string,
+  year: number,
 ): Session[] {
   return talksResponse.results.map((talk) => {
     const sessionLanguage = talk.answers.find((answer) => answer.question.id === QUESTION_ID_SESSION_LANGUAGE)?.options[0]?.answer.en
@@ -144,7 +144,7 @@ interface GenerateResultParams {
   roomsResponse: PretalxResponse<PretalxRoom>
   speakersResponse: PretalxResponse<PretalxSpeaker>
   collaborativeWritingMap: Record<string, CollaborativeWriting>
-  year: string
+  year: number
 }
 
 export function generateResult({

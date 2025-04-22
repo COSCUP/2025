@@ -1,7 +1,8 @@
 import type {
   Sessions,
 } from './sessions/types'
-import { defineLoader, loadEnv } from 'vitepress'
+import { conference } from '#data/conference'
+import { defineLoader } from 'vitepress'
 import { generateResult } from './sessions/processors'
 
 export * from './sessions/types'
@@ -9,15 +10,12 @@ export * from './sessions/types'
 export declare const data: Sessions
 
 async function load(): Promise<Sessions> {
-  // Read the Pretalx token from process.env instead of .env
-  // to prevent token leakage in the frontend.
   const { PRETALX_TOKEN: pretalxToken } = process.env
 
-  const { VITE_YEAR } = loadEnv('', process.cwd())
-  const year = VITE_YEAR ?? '2024'
+  const { year } = conference
 
   const commonHeaders = {
-    'User-Agent': 'coscup-2025-homepage-data-loader/v1',
+    'User-Agent': `coscup-${year}-homepage-data-loader/v1`,
     'Accept': 'application/json',
   }
 
@@ -28,7 +26,7 @@ async function load(): Promise<Sessions> {
 
   try {
     const [collaborativeWritingMap, talksResponse, roomsResponse, speakersResponse] = await Promise.all([
-      fetch('https://github.com/COSCUP/2024/raw/master/scripts/pre-build/hackmd_url_mappings.json', { headers: commonHeaders })
+      fetch(`https://github.com/COSCUP/${year}/raw/master/scripts/pre-build/hackmd_url_mappings.json`, { headers: commonHeaders })
         .then((response) => response.json()),
       fetch(`https://pretalx.coscup.org/api/events/coscup-${year}/talks/?limit=500`, { headers: pretalxHeaders })
         .then((response) => response.json()),
