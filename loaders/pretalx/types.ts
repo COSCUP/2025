@@ -1,3 +1,5 @@
+import type { Tag } from '#data/session-tags.ts'
+
 export interface Sessions {
   sessions: Session[]
   speakers: Speaker[]
@@ -53,12 +55,6 @@ export interface SessionType {
 }
 
 export interface Room {
-  id: string
-  zh: LocalizedName
-  en: LocalizedName
-}
-
-export interface Tag {
   id: string
   zh: LocalizedName
   en: LocalizedName

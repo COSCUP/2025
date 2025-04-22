@@ -11,8 +11,8 @@ import type {
   SessionType,
   Speaker,
 } from './types'
+import { sessionTags } from '#data/session-tags.ts'
 import {
-  AVAILABLE_TAGS,
   LANGUAGE_MAPPING,
   QUESTION_ID_SESSION_EN_DESC,
   QUESTION_ID_SESSION_EN_TITLE,
@@ -164,6 +164,6 @@ export function generateResult({
     speakers: processedSpeakers,
     session_types: processedSessionTypes,
     rooms: processedRooms,
-    tags: AVAILABLE_TAGS,
+    tags: sessionTags,
   }
 }
