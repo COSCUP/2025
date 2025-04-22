@@ -1,5 +1,6 @@
 import type { Tag } from './types'
 
+export const QUESTION_ID_SESSION_LANGUAGE = 216
 export const QUESTION_ID_SPEAKER_ZH_NAME = 0
 export const QUESTION_ID_SPEAKER_ZH_BIO = 0
 export const QUESTION_ID_SPEAKER_EN_NAME = 0

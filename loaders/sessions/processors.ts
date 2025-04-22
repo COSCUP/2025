@@ -16,6 +16,7 @@ import {
   LANGUAGE_MAPPING,
   QUESTION_ID_SESSION_EN_DESC,
   QUESTION_ID_SESSION_EN_TITLE,
+  QUESTION_ID_SESSION_LANGUAGE,
   QUESTION_ID_SESSION_QA,
   QUESTION_ID_SESSION_RECORD,
   QUESTION_ID_SESSION_SLIDE,
@@ -93,7 +94,7 @@ function processSessionTypes(talksResponse: PretalxResponse<PretalxTalk>): Sessi
 }
 
 function getSessionTags(talk: PretalxTalk): string[] {
-  const languageAnswer = talk.answers.find((answer) => answer.question.id === 216)?.options[0]?.answer.en
+  const languageAnswer = talk.answers.find((answer) => answer.question.id === QUESTION_ID_SESSION_LANGUAGE)?.options[0]?.answer.en
   const languageTags: string[] = languageAnswer && LANGUAGE_MAPPING[languageAnswer] ? [LANGUAGE_MAPPING[languageAnswer]] : []
 
   return languageTags
@@ -108,7 +109,7 @@ function processSessions(
   year: string,
 ): Session[] {
   return talksResponse.results.map((talk) => {
-    const sessionLanguage = talk.answers.find((answer) => answer.question.id === 216)?.options[0]?.answer.en
+    const sessionLanguage = talk.answers.find((answer) => answer.question.id === QUESTION_ID_SESSION_LANGUAGE)?.options[0]?.answer.en
     const sessionTypeId = sessionTypes.find((type) => talk.track?.['zh-tw'] === type.zh.name || talk.track?.en === type.en.name)?.id ?? sessionTypes.find((type) => type.zh.name === 'main')?.id ?? ''
 
     return {
