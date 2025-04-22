@@ -36,16 +36,15 @@ interface CollaborativeWriting {
 export function processRooms(roomsResponse: PretalxResponse<PretalxRoom>): Room[] {
   return roomsResponse.results
     .map((room) => {
-      const roomId = room.name.en || room.name['zh-tw']
-      if (!roomId) return null
+      if (room.name['zh-tw'] === null && room.name.en === null) return null
 
       return {
-        id: roomId,
+        id: room.id,
         zh: {
-          name: room.name['zh-tw'] || roomId,
+          name: room.name['zh-tw'] || room.name.en,
         },
         en: {
-          name: room.name.en || roomId,
+          name: room.name.en || room.name['zh-tw'],
         },
       }
     })

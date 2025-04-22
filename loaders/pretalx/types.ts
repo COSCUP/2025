@@ -55,7 +55,7 @@ export interface SessionType {
 }
 
 export interface Room {
-  id: string
-  zh: LocalizedName
-  en: LocalizedName
+  id: number
+  zh: { name: string }
+  en: { name: string }
 }
