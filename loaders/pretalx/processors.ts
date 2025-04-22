@@ -33,7 +33,7 @@ interface CollaborativeWriting {
   URL: string
 }
 
-function processRooms(roomsResponse: PretalxResponse<PretalxRoom>): Room[] {
+export function processRooms(roomsResponse: PretalxResponse<PretalxRoom>): Room[] {
   return roomsResponse.results
     .map((room) => {
       const roomId = room.name.en || room.name['zh-tw']
