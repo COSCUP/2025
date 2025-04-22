@@ -52,7 +52,7 @@ export function processRooms(roomsResponse: PretalxResponse<PretalxRoom>): Room[
     .filter((room): room is Room => room !== null)
 }
 
-function processSpeakers(speakersResponse: PretalxResponse<PretalxSpeaker>): Speaker[] {
+export function processSpeakers(speakersResponse: PretalxResponse<PretalxSpeaker>): Speaker[] {
   return speakersResponse.results.map((speaker) => {
     const chineseBio = filterUnknownCharacters(getAnswerFromQuestions(speaker, QUESTION_ID_SPEAKER_ZH_BIO, speaker.biography || '-') || '')
     const englishBio = filterUnknownCharacters(getAnswerFromQuestions(speaker, QUESTION_ID_SPEAKER_EN_BIO, speaker.biography || '-') || '')
