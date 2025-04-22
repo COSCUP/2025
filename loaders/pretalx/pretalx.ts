@@ -87,3 +87,7 @@ export interface PretalxResponse<T> {
   previous: string | null
   results: T[]
 }
+
+export const getTalkEndpoint = (year: number) => `https://pretalx.coscup.org/api/events/coscup-${year}/talks/?limit=500`
+export const getRoomEndpoint = (year: number) => `https://pretalx.coscup.org/api/events/coscup-${year}/rooms/?limit=500`
+export const getSpeakerEndpoint = (year: number) => `https://pretalx.coscup.org/api/events/coscup-${year}/speakers/?limit=500`
