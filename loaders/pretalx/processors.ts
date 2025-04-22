@@ -72,24 +72,29 @@ export function processSpeakers(speakersResponse: PretalxResponse<PretalxSpeaker
 }
 
 function processSessionTypes(talksResponse: PretalxResponse<PretalxTalk>): SessionType[] {
-  const uniqueTracks = talksResponse.results.map((talk) => talk.track).filter((track, index, tracks) =>
-    index === tracks.findIndex((t) => t?.['zh-tw'] === track?.['zh-tw'] && t?.en === track?.en))
+  const sessionType = new Map<string, SessionType>()
 
-  return uniqueTracks.map((track) => {
-    // hash the 'track' object to get a unique id
-    const trackId = generateMd5Base64Hash(JSON.stringify(track))
+  for (const result of talksResponse.results) {
+    const track = result.track
+    if (!track) continue
 
-    const sessionType: SessionType = {
+    const trackChineseName = track['zh-tw'] || track.en || 'main'
+    const trackEnglishName = track.en || track['zh-tw'] || 'main'
+
+    const trackId = generateMd5Base64Hash(trackChineseName)
+
+    sessionType.set(trackId, {
       id: trackId,
       zh: {
-        name: track?.['zh-tw'] || track?.en || 'main',
+        name: trackChineseName,
       },
       en: {
-        name: track?.en || track?.['zh-tw'] || 'main',
+        name: trackEnglishName,
       },
-    }
-    return sessionType
-  })
+    })
+  }
+
+  return Array.from(sessionType.values())
 }
 
 function getSessionTags(talk: PretalxTalk): Set<string> {
