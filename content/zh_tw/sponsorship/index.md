@@ -27,35 +27,25 @@ COSCUP 2024 會眾問卷回饋：
 
 <AddonTable />
 
-::: div addon-example
+<div class="addon-example">
+  <img src="/@/assets/images/sponsorships/flag_dark.webp">
+  Keynote 演講廳 垂吊布條
+</div>
 
-![](/@/assets/images/sponsorships/flag_dark.webp)
-Keynote 演講廳 垂吊布條
-:::
+<div class="addon-example">
+  <img src="/@/assets/images/sponsorships/promotion_dark.webp">
+  大會點心區桌旗（兩天）
+</div>
 
-::: div addon-example
-![](/@/assets/images/sponsorships/promotion_dark.webp)
-大會點心區桌旗（兩天）
-:::
+<div class="addon-example">
+  <img src="/@/assets/images/sponsorships/lanyards_dark.webp">
+  頸帶獨家贊助
+</div>
 
-::: div addon-example
-![](/@/assets/images/sponsorships/lanyards_dark.webp)
-頸帶獨家贊助
-:::
-
-::: div addon-example
-![](/@/assets/images/sponsorships/website-agenda-ads_dark.webp)
-網站議程頁面廣告
-:::
-
-<style scoped>
-.addon-example {
-  display: inline-block;
-  width: 50%;
-  text-align: center;
-  padding: 5px;
-}
-</style>
+<div class="addon-example">
+  <img src="/@/assets/images/sponsorships/website-agenda-ads_dark.webp">
+  網站議程頁面廣告
+</div>
 
 因應相關製作物所需的工作時間，贊助截止日期：**2025 年 7 月 11 日**
 
@@ -106,16 +96,10 @@ COSCUP (Conference for Open Source Coders, Users and Promoters ; 開源人年會
 
 歡迎從照片中回顧我們精彩的時刻: [COSCUP flickr album](https://www.flickr.com/photos/coscup/albums)。
 
-::: div attendee
-![](/@/assets/images/sponsorships/coscup-attendee.webp)
-96.2% 與會者願意推薦其他人參加往後的 COSCUP
-:::
-
-<style scoped>
-.attendee {
-  text-align: center;
-}
-</style>
+<div class="attendee">
+  <img src="/@/assets/images/sponsorships/coscup-attendee.webp">
+  96.2% 與會者願意推薦其他人參加往後的 COSCUP
+</div>
 
 ## 我們期待所有的贊助單位在 COSCUP x RubyConf Taiwan 2025 都可以...
 
@@ -126,3 +110,16 @@ COSCUP (Conference for Open Source Coders, Users and Promoters ; 開源人年會
 - 與專業人士交流。
 
 聯絡我們： [sponsorship@coscup.org](mailto:sponsorship@coscup.org)
+
+<style scoped>
+.addon-example {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  padding: 5px;
+}
+
+.attendee {
+  text-align: center;
+}
+</style>

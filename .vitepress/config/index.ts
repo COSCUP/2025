@@ -1,6 +1,4 @@
 import { resolve } from 'node:path'
-// @ts-expect-error - No type definitions available
-import markdownItContainer from 'markdown-it-container'
 import { FileSystemIconLoader } from 'unplugin-icons/loaders'
 import IconsResolver from 'unplugin-icons/resolver'
 import Icons from 'unplugin-icons/vite'
@@ -16,22 +14,6 @@ import { zh_tw } from './zh_tw'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  markdown: {
-    config: (md) => {
-      md.use(markdownItContainer, 'div', {
-        render(tokens: Array<{ info: string }>, idx: number) {
-          const token = tokens[idx] as { info: string, nesting: number }
-          const klass = token.info.trim().slice(3).trim()
-          if (token.nesting === 1) {
-            return `<div class="${klass}">\n`
-          } else {
-            // 结束标签
-            return '</div>\n'
-          }
-        },
-      })
-    },
-  },
   vite: {
     resolve: {
       alias: {

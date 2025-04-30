@@ -27,35 +27,25 @@ COSCUP 2024 Feedback Survey:
 
 <AddonTable />
 
-::: div addon-example
+<div class="addon-example">
+  <img src="/@/assets/images/sponsorships/flag_dark.webp">
+  Logo on Stage Flag in Keynote Hall (co-branded with COSCUP)
+</div>
 
-![](/@/assets/images/sponsorships/flag_dark.webp)
-Logo on Stage Flag in Keynote Hall (co-branded with COSCUP)
-:::
+<div class="addon-example">
+  <img src="/@/assets/images/sponsorships/promotion_dark.webp">
+  Promotion at the Snack Area (2 days)
+</div>
 
-::: div addon-example
-![](/@/assets/images/sponsorships/promotion_dark.webp)
-Promotion at the Snack Area (2 days)
-:::
+<div class="addon-example">
+  <img src="/@/assets/images/sponsorships/lanyards_dark.webp">
+  Lanyards (Exclusive Sponsorship)
+</div>
 
-::: div addon-example
-![](/@/assets/images/sponsorships/lanyards_dark.webp)
-Lanyards (Exclusive Sponsorship)
-:::
-
-::: div addon-example
-![](/@/assets/images/sponsorships/website-agenda-ads_dark.webp)
-Agenda Page Ads
-:::
-
-<style scoped>
-.addon-example {
-  display: inline-block;
-  width: 50%;
-  text-align: center;
-  padding: 5px;
-}
-</style>
+<div class="addon-example">
+  <img src="/@/assets/images/sponsorships/website-agenda-ads_dark.webp">
+  Agenda Page Ads
+</div>
 
 Deadline for sponsorship: **July 11, 2025**
 
@@ -106,16 +96,10 @@ COSCUP (Conference for Open Source Coders, Users and Promoters)
 
 To see our past conference photos, please visit : [COSCUP flickr album](https://www.flickr.com/photos/coscup/albums).
 
-::: div attendee
-![](/@/assets/images/sponsorships/coscup-attendee.webp)
-96.2% of attendees would recommend others to join COSCUP
-:::
-
-<style scoped>
-.attendee {
-  text-align: center;
-}
-</style>
+<div class="attendee">
+  <img src="/@/assets/images/sponsorships/coscup-attendee.webp">
+  96.2% of attendees would recommend others to join COSCUP
+</div>
 
 ## We wish all the sponsors in COSCUP x RubyConf Taiwan 2025 Taiwan 2025 would
 
@@ -126,3 +110,16 @@ To see our past conference photos, please visit : [COSCUP flickr album](https://
 - Network with professionals.
 
 Contact us: [sponsorship@coscup.org](mailto:sponsorship@coscup.org)
+
+<style scoped>
+.addon-example {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  padding: 5px;
+}
+
+.attendee {
+  text-align: center;
+}
+</style>
