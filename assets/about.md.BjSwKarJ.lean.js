@@ -1,0 +1,1 @@
+import{_ as e,c as r,o,a1 as t}from"./chunks/framework.D-5puK5j.js";const p=JSON.parse('{"title":"認識我們","description":"","frontmatter":{},"headers":[],"relativePath":"about.md","filePath":"zh_tw/about.md"}'),l={name:"about.md"};function i(s,a,n,h,d,c){return o(),r("div",null,a[0]||(a[0]=[t("",14)]))}const C=e(l,[["render",i]]);export{p as __pageData,C as default};
