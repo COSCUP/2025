@@ -7,11 +7,11 @@ export const zh_tw = defineConfig({
     nav: [
       { text: '首頁', link: '/' },
       { text: '年會資訊', link: '/event' },
-      { text: 'Participate', link: '/participate' },
+      { text: '參與指南', link: '/participate/attendee' },
       { text: '關於我們', link: '/about' },
     ],
     sidebar: {
-      '/participate/': [
+      '/participate': [
         {
           text: '參與指南',
           link: '/participate/attendee',
