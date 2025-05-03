@@ -6,23 +6,39 @@ export const en = defineConfig({
     nav: [
       { text: 'Home', link: '/en' },
       { text: 'Event', link: '/en/event' },
+      { text: 'Participate', link: '/en/participate/attendee' },
       { text: 'About', link: '/en/about' },
     ],
     sidebar: {
-      '/participate/': [
+      '/en/participate': [
         {
           text: 'Participate',
-          link: '/participate/attendee',
+          link: '/en/participate/attendee',
           items: [
-            { text: 'As Attendee', link: '/participate/attendee' },
-            { text: 'As Community', link: '/participate/community' },
-            { text: 'As Speaker', link: '/participate/speaker' },
-            { text: 'As Sponsor', link: '/participate/sponsor' },
-            { text: 'As Organizing', link: '/participate/organizing' },
+            { text: 'As Attendee', link: '/en/participate/attendee' },
+            { text: 'As Community', link: '/en/participate/community' },
+            { text: 'As Speaker', link: '/en/participate/speaker' },
+            { text: 'As Sponsor', link: '/en/participate/sponsor' },
+            { text: 'As Organizing', link: '/en/participate/organizing' },
           ],
         },
       ],
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/COSCUP' }],
+    docFooter: {
+      prev: 'Previous page',
+      next: 'Next Page',
+    },
+
+    outline: {
+      label: '導覽',
+    },
+
+    langMenuLabel: 'Other Languages',
+    returnToTopLabel: '回到頂部',
+    sidebarMenuLabel: 'Menu',
+    darkModeSwitchLabel: 'Theme',
+    lightModeSwitchTitle: 'Light Mode',
+    darkModeSwitchTitle: 'Dark Mode',
   },
 })
