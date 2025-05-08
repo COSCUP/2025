@@ -8,8 +8,21 @@ export const zh_tw = defineConfig({
       { text: '首頁', link: '/' },
       { text: '年會資訊', link: '/event' },
       { text: '關於我們', link: '/about' },
+      { text: '參與指南', link: '/participate' },
     ],
-    sidebar: {},
+    sidebar: [
+      {
+        text: 'Participate',
+        link: '/participate',
+        items: [
+          { text: 'As Attendee', link: '/participate/attendee' },
+          { text: 'As Community', link: '/participate/community' },
+          { text: 'As Speaker', link: '/participate/speaker' },
+          { text: 'As Sponsor', link: '/participate/sponsor' },
+          { text: 'As Organizing', link: '/participate/organizing' },
+        ],
+      },
+    ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/COSCUP' },
     ],
