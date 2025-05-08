@@ -9,8 +9,8 @@ export const en = defineConfig({
       { text: 'About', link: '/en/about' },
       { text: 'Participate', link: '/en/participate' },
     ],
-    sidebar: [
-      {
+    sidebar: {
+      '/en/participate': [{
         text: 'Participate',
         link: '/participate',
         items: [
@@ -20,8 +20,8 @@ export const en = defineConfig({
           { text: 'As Sponsor', link: '/participate/sponsor' },
           { text: 'As Organizing', link: '/participate/organizing' },
         ],
-      },
-    ],
+      }],
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/COSCUP' },
     ],

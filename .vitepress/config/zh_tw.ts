@@ -10,8 +10,8 @@ export const zh_tw = defineConfig({
       { text: '關於我們', link: '/about' },
       { text: '參與指南', link: '/participate' },
     ],
-    sidebar: [
-      {
+    sidebar: {
+      '/participate': [{
         text: 'Participate',
         link: '/participate',
         items: [
@@ -21,8 +21,8 @@ export const zh_tw = defineConfig({
           { text: 'As Sponsor', link: '/participate/sponsor' },
           { text: 'As Organizing', link: '/participate/organizing' },
         ],
-      },
-    ],
+      }],
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/COSCUP' },
     ],
