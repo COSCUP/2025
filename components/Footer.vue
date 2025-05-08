@@ -1,9 +1,35 @@
 <script setup lang="ts">
 import { conference } from '#data/conference.js'
+import { useData, useRoute } from 'vitepress'
+import { computed } from 'vue'
+
+const { theme, frontmatter, site } = useData()
+const route = useRoute()
+
+const hasSidebar = computed(() => {
+  if (frontmatter.value.sidebar === false) return false
+
+  const sidebar = theme.value.sidebar
+  if (Array.isArray(sidebar)) return sidebar.length > 0
+
+  const base = site.value.base || '/'
+  const path = route.path.replace(base, '/')
+
+  if (typeof sidebar === 'object') {
+    return Object.entries(sidebar).some(
+      ([key, value]) => path.startsWith(key) && value.length > 0,
+    )
+  }
+
+  return false
+})
 </script>
 
 <template>
-  <footer id="footer">
+  <footer
+    id="footer"
+    :class="{ 'has-sidebar': hasSidebar }"
+  >
     <section class="title">
       <h1>COSCUP x RubyConf Taiwan 2025</h1>
       <h2>Conference for Open Source Coders, Users, and Promoters</h2>
@@ -75,6 +101,12 @@ import { conference } from '#data/conference.js'
 #footer {
   border-top: 1px solid var(--vp-c-gutter);
   padding: 32px 64px;
+}
+@media (min-width: 960px) {
+  #footer.has-sidebar {
+    width: calc(100% - var(--vp-sidebar-width));
+    margin-left: var(--vp-sidebar-width);
+  }
 }
 
 #footer section {
