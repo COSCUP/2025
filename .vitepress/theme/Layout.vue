@@ -1,17 +1,16 @@
 <script setup lang="ts">
 import Banner from '#components/Banner.vue'
-import { inBrowser, useData } from 'vitepress'
+import { inBrowser, useData, useRoute } from 'vitepress'
 import VPBackdrop from 'vitepress/dist/client/theme-default/components/VPBackdrop.vue'
 import VPLocalNav from 'vitepress/dist/client/theme-default/components/VPLocalNav.vue'
 import VPNav from 'vitepress/dist/client/theme-default/components/VPNav.vue'
 import VPSkipLink from 'vitepress/dist/client/theme-default/components/VPSkipLink.vue'
 import { useSidebar } from 'vitepress/dist/client/theme-default/composables/sidebar.js'
 
-import { computed, provide, useSlots, watchEffect } from 'vue'
-import { registerWatchers } from '../config/layout'
+import { computed, provide, useSlots, watch } from 'vue'
 import VPContent from '/@/components/VPContent.vue'
 
-const { lang, frontmatter } = useData()
+const { frontmatter } = useData()
 
 const {
   isOpen: isSidebarOpen,
@@ -19,18 +18,13 @@ const {
   close: closeSidebar,
 } = useSidebar()
 
-registerWatchers({ closeSidebar })
+const route = useRoute()
+watch(() => route.path, closeSidebar)
 
 const slots = useSlots()
 const heroImageSlotExists = computed(() => !!slots['home-hero-image'])
 
 provide('hero-image-slot-exists', heroImageSlotExists)
-
-watchEffect(() => {
-  if (inBrowser) {
-    document.cookie = `lang=${lang.value};path=/`
-  }
-})
 </script>
 
 <template>

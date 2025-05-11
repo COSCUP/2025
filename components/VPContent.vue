@@ -6,7 +6,6 @@ import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
 import VPPage from 'vitepress/dist/client/theme-default/components/VPPage.vue'
 import { useSidebar } from 'vitepress/dist/client/theme-default/composables/sidebar.js'
 import NotFound from 'vitepress/theme'
-import { registerWatchers } from '../.vitepress/config/layout'
 import VPSidebar from '/@/components/VPSidebar.vue'
 
 const props = defineProps<{
@@ -16,11 +15,8 @@ const props = defineProps<{
 const { page, frontmatter } = useData()
 
 const {
-  close: closeSidebar,
   hasSidebar,
 } = useSidebar()
-
-registerWatchers({ closeSidebar })
 </script>
 
 <template>
