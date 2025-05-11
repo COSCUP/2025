@@ -80,17 +80,17 @@ COSCUP 2024 也有紀念品交換會，在 `TR-309` 外的「**紀念品攤位**
 
 COSCUP 除了社群議程之外，我們也提供給予會眾身心靈放鬆的服務，希望在活動二日，或許您遠道而來，或許您繁忙的工作在假日期間持續參與 COSCUP。
 
-- 「[前夜派對](../eve_gathering/overview.md)」：在活動前一天 8/2 晚上的一個喝酒、聊開源的聚會，不論你隔天是否參與 COSCUP，歡迎來！
-- 「[療癒市集](../health_market/overview.md)」：結合「按摩小站」、「紅酒瑜伽」、「療癒彩繪」、「療癒睡眠」，提供身心靈的放鬆與恢復。
-- 「[開．源遊會](../fun_fair/overview.md)」：2024 新企劃，結合「開源菜單」的方式實踐「開源精神」，有空可以過去逛逛，現場有許多攤位提供各式特色物品。也可前往短暫休憩。
-- 「[療癒講座](../healing_lectures/overview.md)」：延續「療癒」主題，將其轉換一系列的講座課程，專注在「創傷、復原」的議程，有興趣去可以前往聆聽。
-- 「[親子工作坊](../junior_workshop/overview.md)」：適合小朋友初踏入開源、創客領域，今年有熱門的焊接、電玩製作課程，準備詢問小朋友要選那一堂課了！
+- 「[前夜派對](https://volunteer.coscup.org/docs/zh-TW/about_coscup/eve_gathering/overview/#_1)」：在活動前一天 8/2 晚上的一個喝酒、聊開源的聚會，不論你隔天是否參與 COSCUP，歡迎來！
+- 「[療癒市集](https://volunteer.coscup.org/docs/zh-TW/about_coscup/health_market/overview/)」：結合「按摩小站」、「紅酒瑜伽」、「療癒彩繪」、「療癒睡眠」，提供身心靈的放鬆與恢復。
+- 「[開．源遊會](https://volunteer.coscup.org/docs/zh-TW/about_coscup/fun_fair/overview/)」：2024 新企劃，結合「開源菜單」的方式實踐「開源精神」，有空可以過去逛逛，現場有許多攤位提供各式特色物品。也可前往短暫休憩。
+- 「[療癒講座](https://volunteer.coscup.org/docs/zh-TW/about_coscup/healing_lectures/overview/)」：延續「療癒」主題，將其轉換一系列的講座課程，專注在「創傷、復原」的議程，有興趣去可以前往聆聽。
+- 「[親子工作坊](https://volunteer.coscup.org/docs/zh-TW/about_coscup/junior_workshop/overview/)」：適合小朋友初踏入開源、創客領域，今年有熱門的焊接、電玩製作課程，準備詢問小朋友要選那一堂課了！
 
-[「會眾服務」說明](../attendee_services/index.md){ .md-button }
+[「會眾服務」說明](https://volunteer.coscup.org/docs/zh-TW/about_coscup/attendee_services/){ .md-button }
 
 :::info 服務說明
 
-- 可參考詳細的「[會眾服務](../attendee_services/index.md)」說明頁面，部份服務需要預先預訂。
+- 可參考詳細的「[會眾服務](https://volunteer.coscup.org/docs/zh-TW/about_coscup/attendee_services/)」說明頁面，部份服務需要預先預訂。
 
 :::
 

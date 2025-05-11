@@ -4,7 +4,7 @@ The organizing team volunteers need to pay attention to certain matters before a
 
 ## Team Member Handbook
 
-Please read through the [Team Member Handbook](../team_member_handbook.md) again to understand the concerns of COSCUP. If attendees ask about COSCUP during the event, do not feel nervous. You can directly explain what is mentioned in the handbook under "What is COSCUP?"
+Please read through the [Team Member Handbook](https://volunteer.coscup.org/docs/zh-TW/about_coscup/team_member_handbook/) again to understand the concerns of COSCUP. If attendees ask about COSCUP during the event, do not feel nervous. You can directly explain what is mentioned in the handbook under "What is COSCUP?"
 
 ## Dietary Preferences
 
@@ -73,6 +73,6 @@ Accommodation details have been announced on the volunteer service platform unde
 5. The staff group photo will be taken on **8/4 at 07:20** in `TR-1F`.
    - For those staying overnight, remember to bring your luggage and board any of the shuttle buses.
    - 07:20 is the time for the photoshoot, please gather at 07:00.
-6. The "[Massage Station](../health_market/overview.md)" is located in `TR-612`, and staff can use it for massages at any time.
-7. During your free time, you can also switch roles to become an [attendee](./as_attendee.md) and listen to sessions or participate in the various [attendee services](../attendee_services/index.md) offered.
-8. On 8/4, [Wine Yoga](../health_market/overview.md#yoga-wine) and [Healing Sleep](../health_market/overview.md#peaceful-sleep-therapeutic-sleep-massage-oil) sessions are available for volunteers. Please confirm your available time and visit the Volunteer Service Desk at TR312 to redeem your pass.
+6. The "[Massage Station](https://volunteer.coscup.org/docs/en/about_coscup/health_market/overview/#_2)" is located in `TR-612`, and staff can use it for massages at any time.
+7. During your free time, you can also switch roles to become an [attendee](./attendee.md) and listen to sessions or participate in the various [attendee services](https://volunteer.coscup.org/docs/en/about_coscup/attendee_services/) offered.
+8. On 8/4, [Wine Yoga](https://volunteer.coscup.org/docs/en/about_coscup/health_market/overview/#_4) and [Healing Sleep](https://volunteer.coscup.org/docs/en/about_coscup/health_market/overview/#_9) sessions are available for volunteers. Please confirm your available time and visit the Volunteer Service Desk at TR312 to redeem your pass.
