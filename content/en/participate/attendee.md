@@ -107,17 +107,17 @@ COSCUP 2024 will also feature a Giveaways Exchange Party. There will be a perman
 
 In addition to community sessions, COSCUP also provides services to help attendees relax and rejuvenate their body and mind. Whether you're coming from afar or taking a break from your busy work schedule to join COSCUP during the weekend, we have something for you:
 
-- 「[Eve Gathering](../eve_gathering/overview.md)」：A gathering on the evening of 8/2 before the event starts, where you can drink and talk about open source. Whether you're participating in COSCUP the next day or not, you're welcome to join!
-- 「[Healing Market](../health_market/overview.md)」：Combines services like "Massage Station," "Wine Yoga," "Healing Painting," and "Healing Sleep" to offer relaxation and recovery for your body and mind.
-- 「[Fun Fair](../fun_fair/overview.md)」：A new initiative for 2024 that practices the "open-source spirit" through "Open Source Menus." Feel free to browse the various unique booths on-site. You can also stop by for a short break.
-- 「[Healing Lectures](../healing_lectures/overview.md)」：Continuing the "healing" topic, this series of lectures focuses on "trauma and recovery." If you're interested, you are welcome to attend and listen.
-- 「[Junior Workshop](../junior_workshop/overview.md)」：Suitable for children who are new to the open-source and maker fields. This year, we offer popular courses like soldering and video game making. Get ready to ask your kids which class they want to attend!
+- 「[Eve Gathering](https://volunteer.coscup.org/docs/en/about_coscup/eve_gathering/overview/#_1)」：A gathering on the evening of 8/2 before the event starts, where you can drink and talk about open source. Whether you're participating in COSCUP the next day or not, you're welcome to join!
+- 「[Healing Market](https://volunteer.coscup.org/docs/en/about_coscup/health_market/overview/)」：Combines services like "Massage Station," "Wine Yoga," "Healing Painting," and "Healing Sleep" to offer relaxation and recovery for your body and mind.
+- 「[Fun Fair](https://volunteer.coscup.org/docs/en/about_coscup/fun_fair/overview/)」：A new initiative for 2024 that practices the "open-source spirit" through "Open Source Menus." Feel free to browse the various unique booths on-site. You can also stop by for a short break.
+- 「[Healing Lectures](https://volunteer.coscup.org/docs/en/about_coscup/healing_lectures/overview/)」：Continuing the "healing" topic, this series of lectures focuses on "trauma and recovery." If you're interested, you are welcome to attend and listen.
+- 「[Junior Workshop](https://volunteer.coscup.org/docs/zh-TW/about_coscup/junior_workshop/overview/)」：Suitable for children who are new to the open-source and maker fields. This year, we offer popular courses like soldering and video game making. Get ready to ask your kids which class they want to attend!
 
-["Attendee Services" Overview](../attendee_services/index.md){ .md-button }
+["Attendee Services" Overview](https://volunteer.coscup.org/docs/en/about_coscup/attendee_services/){ .md-button }
 
 :::info "Services Overview"
 
-- For more details, please refer to the "[Attendee Services](../attendee_services/index.md)" page. Some services require prior reservations.
+- For more details, please refer to the "[Attendee Services](https://volunteer.coscup.org/docs/en/about_coscup/attendee_services/)" page. Some services require prior reservations.
 
 :::
 

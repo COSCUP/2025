@@ -4,9 +4,9 @@
 
 :::info 會眾參與
 
-如果您是第一次贊助或是參與 COSCUP，可以轉換成[會眾](./as_attendee.md)的視角瞭解大會相關的服務與指引，也歡迎有空到 `TR-312` 志工服務台瞭解更多 COSCUP 的理念與想法。
+如果您是第一次贊助或是參與 COSCUP，可以轉換成[會眾](./attendee.md)`TR-312` 志工服務台瞭解更多 COSCUP 的理念與想法。
 
-[「會眾」參與指南](./as_attendee.md){ .md-button }
+[「會眾」參與指南](./attendee.md)
 
 :::
 
@@ -36,11 +36,11 @@
 如有任何疑問，可以直接聯絡大會贊助組尋求協助，也建議訂閱活動電子報，即時收到大會的活動通知。
 
 - 贊助組：<sponsorship@coscup.org>
-- 訂閱電子報：[訂閱說明](../newsletters/index.md)。
+- 訂閱電子報：[訂閱說明](https://volunteer.coscup.org/docs/zh-TW/about_coscup/newsletters/)。
 
 ## 推薦參與的活動
 
 以下是 COSCUP 在大會二日提供的服務，非常歡迎您在擺攤閒暇之餘可以參與、體驗。
 
-- [會眾服務](../attendee_services/index.md)：包含前夜派對、按摩小站、紅酒瑜伽、療癒彩繪、療癒睡眠、療癒講座、親子工作坊…等活動，提供會眾身心靈的放鬆與恢復。
-- [形象照拍攝](./as_attendee.md#_8)：由大會紀錄組搭設專業的攝影棚，免費為大家拍攝專業的形象照服務。
+- [會眾服務](https://volunteer.coscup.org/docs/zh-TW/about_coscup/attendee_services/)：包含前夜派對、按摩小站、紅酒瑜伽、療癒彩繪、療癒睡眠、療癒講座、親子工作坊…等活動，提供會眾身心靈的放鬆與恢復。
+- [形象照拍攝](./attendee#%E5%BD%A2%E8%B1%A1%E7%85%A7%E6%8B%8D%E6%94%9D)：由大會紀錄組搭設專業的攝影棚，免費為大家拍攝專業的形象照服務。

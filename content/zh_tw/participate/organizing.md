@@ -4,7 +4,7 @@
 
 ## 組員手冊
 
-請再次閱讀「[組員手冊](../team_member_handbook.md)」，了解 COSCUP 所關注的事宜，在活動期間如果有會眾詢問 COSCUP 是什麼時、不用感到緊張，也可以直接闡述組員手冊中所提到的「COSCUP 是什麼？」。
+請再次閱讀「[組員手冊](https://volunteer.coscup.org/docs/zh-TW/about_coscup/team_member_handbook/)」，了解 COSCUP 所關注的事宜，在活動期間如果有會眾詢問 COSCUP 是什麼時、不用感到緊張，也可以直接闡述組員手冊中所提到的「COSCUP 是什麼？」。
 
 ## 飲食習慣
 
@@ -73,6 +73,6 @@
 5. 工作人員大合照於 **8/4 07:20** `TR-1F` 拍攝大合照。
    - 住宿的夥伴記得行李也要上手、並搭上任一台交通接駁車，抵達臺科大後直接到操場集合拍照。
    - 07:20 為拍照時間，請在 07:00 集合。
-6. 「[按摩小站](../health_market/overview.md)」在 `TR-612`，工作人員可隨時去按摩。
-7. 空檔時間也可以轉變為[會眾](./as_attendee.md)去聽議程或是參與體驗相關的[會眾服務](../attendee_services/index.md)。
+6. 「[按摩小站](https://volunteer.coscup.org/docs/zh-TW/about_coscup/health_market/overview/#_2)」在 `TR-612`，工作人員可隨時去按摩。
+7. 空檔時間也可以轉變為[會眾](./attendee.md)去聽議程或是參與體驗相關的[會眾服務](https://volunteer.coscup.org/docs/zh-TW/about_coscup/attendee_services/)。
 8. 8/4 [紅酒瑜伽](https://volunteer.coscup.org/docs/zh-TW/about_coscup/health_market/overview/#_4)、[療癒睡眠](https://volunteer.coscup.org/docs/zh-TW/about_coscup/health_market/overview/#_9)提供給志工夥伴參加，請確定可以參與的時間來 TR312 志工服務台兌換通行證。

@@ -4,11 +4,11 @@ First and foremost, thank you for sponsoring COSCUP, the Conference for Open Sou
 
 :::info Attendee Participation
 
-If this is your first time sponsoring or attending COSCUP, you might want to familiarize yourself with the services and guidelines from the [attendee's perspective](./as_attendee.md). We also welcome you to visit the volunteer services desk at `TR-312` to learn more about COSCUP's values and ideas.
+If this is your first time sponsoring or attending COSCUP, you might want to familiarize yourself with the services and guidelines from the [attendee's perspective](./attendee.md). We also welcome you to visit the volunteer services desk at `TR-312` to learn more about COSCUP's values and ideas.
 
 :::
 
-[Attendee Participation Guide](./as_attendee.md){ .md-button }
+[Attendee Participation Guide](./attendee.md){ .md-button }
 
 ## Sponsorship Booth
 
@@ -36,11 +36,11 @@ If your sponsorship package includes a booth, please take note of the following 
 If you have any questions, you can directly contact the conference sponsorship team for assistance. We also recommend subscribing to the event newsletter to receive timely updates about the conference.
 
 - Sponsorship Team: <sponsorship@coscup.org>
-- Subscribe to the Newsletter: [Subscription Information](../newsletters/index.md).
+- Subscribe to the Newsletter: [Subscription Information](https://volunteer.coscup.org/docs/en/about_coscup/newsletters/).
 
 ## Recommended Activities
 
 The following services are provided by COSCUP during the two-day conference. We warmly welcome you to participate and experience them during your booth downtime.
 
-- [Attendee Services](../attendee_services/index.md): Including activities such as the pre-conference party, massage station, wine yoga, therapeutic painting, sleep therapy, healing lectures, and parent-child workshops, these activities offer relaxation and rejuvenation for the body, mind, and spirit.
-- [Professional Portrait](./as_attendee.md#professional-portrait): The conference's documentation team will set up a professional photo studio to provide everyone with free professional portrait services.
+- [Attendee Services](https://volunteer.coscup.org/docs/en/about_coscup/attendee_services/): Including activities such as the pre-conference party, massage station, wine yoga, therapeutic painting, sleep therapy, healing lectures, and parent-child workshops, these activities offer relaxation and rejuvenation for the body, mind, and spirit.
+- [Professional Portrait](./attendee#professional-portrait): The conference's documentation team will set up a professional photo studio to provide everyone with free professional portrait services.

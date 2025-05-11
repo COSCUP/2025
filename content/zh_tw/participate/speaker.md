@@ -6,10 +6,10 @@
 
 :::tip
 
-Call for Proposals 已公告，各社群議程軌的介紹可以參考[這篇文章](./2024_cfp.md)。
+Call for Proposals 已公告，各社群議程軌的介紹可以參考[這篇文章](https://volunteer.coscup.org/docs/zh-TW/about_coscup/how_to_participate/2024_cfp/)。
 
 [:material-send-check-outline: 前往議程投稿](https://pretalx.coscup.org/coscup-2024/){ .md-button .md-button--primary }
-[:octicons-info-16: 各議程軌投稿簡介](./2024_cfp.md){ .md-button .md-button--primary }
+[:octicons-info-16: 各議程軌投稿簡介](https://volunteer.coscup.org/docs/zh-TW/about_coscup/how_to_participate/2024_cfp/){ .md-button .md-button--primary }
 
 :::
 
@@ -34,7 +34,7 @@ Call for Proposals 已公告，各社群議程軌的介紹可以參考[這篇文
 
 :::tip
 
-2024 各社群議程軌已公佈，請參考[此篇文章](./2024_cfp.md)。
+2024 各社群議程軌已公佈，請參考[此篇文章](https://volunteer.coscup.org/docs/zh-TW/about_coscup/how_to_participate/2024_cfp/)。
 
 :::
 
@@ -96,7 +96,7 @@ Call for Proposals 已公告，各社群議程軌的介紹可以參考[這篇文
 ## 與 2024 相關的資訊
 
 - 提交稿件：<https://pretalx.coscup.org/coscup-2024/>
-- 各社群議程軌介紹：[整理版本](./2024_cfp.md)
+- 各社群議程軌介紹：[整理版本](https://volunteer.coscup.org/docs/zh-TW/about_coscup/how_to_participate/2024_cfp/)
 - 議程組聯絡信箱：[program@coscup.org](mailto:program@coscup.org)
 
 確定成為議程講者後，請再次確認議程時間與地點，如何聯絡社群議程負責人，如無法或不知如何聯繫，可以尋求議程組的協助。
@@ -105,4 +105,4 @@ Call for Proposals 已公告，各社群議程軌的介紹可以參考[這篇文
 
 在空閒之餘，也歡迎轉換為會眾的身份一起參與、到處逛逛攤位，參考「[會眾](./as_attendee.md)」的引導手冊。
 
-[「會眾」參與指南](./as_attendee.md){ .md-button }
+[「會眾」參與指南](./attendee.md

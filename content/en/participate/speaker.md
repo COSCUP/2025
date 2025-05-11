@@ -6,12 +6,12 @@ Don't hesitate anymore; taking action leads to opportunities!
 
 :::tip
 
-The Call for Proposals has been announced. You can refer to [this article](./2024_cfp.md) for introductions to each community track.
+The Call for Proposals has been announced. You can refer to [this article](https://volunteer.coscup.org/docs/en/about_coscup/how_to_participate/2024_cfp/) for introductions to each community track.
 
 :::
 
 [Submit your proposals](https://pretalx.coscup.org/coscup-2024/){ .md-button .md-button--primary }
-[Tracks Introduction](./2024_cfp.md){ .md-button .md-button--primary }
+[Tracks Introduction](https://volunteer.coscup.org/docs/en/about_coscup/how_to_participate/2024_cfp/){ .md-button .md-button--primary }
 
 ## Speaker Framework
 
@@ -34,7 +34,7 @@ After the conference announcement, you can quickly browse through the currently 
 
 :::tip
 
-The community tracks for 2024 have been announced. Please refer to [this article](./2024_cfp.md) for details.
+The community tracks for 2024 have been announced. Please refer to [this article](https://volunteer.coscup.org/docs/en/about_coscup/how_to_participate/2024_cfp/) for details.
 
 :::
 
@@ -96,13 +96,13 @@ As COSCUP sees increasing participation from international partners, it is sugge
 ## Information Related to 2024
 
 - Submit your proposal: <https://pretalx.coscup.org/coscup-2024/>
-- Introductions to each community track: [Compiled version](./2024_cfp.md).
+- Introductions to each community track: [Compiled version](https://volunteer.coscup.org/docs/en/about_coscup/how_to_participate/2024_cfp/).
 - Contact email for the Program Team: [program@coscup.org](mailto:program@coscup.org).
 
 After confirming your role as a session speaker, please double-check the schedule and location, and how to contact the community track coordinator. If you are unable or unsure how to make contact, you can seek assistance from the programming team.
 
 Since COSCUP is a community-driven annual conference, each community has its own way of presenting topics. The conference provides a platform and resources to attract attendees to the venue, and we hope that you can also help promote and publicize COSCUP through your community channels.
 
-In your spare time, you are welcome to switch to the role of an attendee, explore the booths, and participate in various activities. For more information, refer to the [Attendee](./as_attendee.md) guide.
+In your spare time, you are welcome to switch to the role of an attendee, explore the booths, and participate in various activities. For more information, refer to the [Attendee](./attendee.md
 
-[Attendee Participation Guide](./as_attendee.md){ .md-button }
+[Attendee Participation Guide](./attendee.md){ .md-button }
