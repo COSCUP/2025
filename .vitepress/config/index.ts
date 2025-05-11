@@ -1,5 +1,4 @@
 import { resolve } from 'node:path'
-// @ts-expect-error - No type definitions available
 import markdownItContainer from 'markdown-it-container'
 import { FileSystemIconLoader } from 'unplugin-icons/loaders'
 import IconsResolver from 'unplugin-icons/resolver'
@@ -74,7 +73,13 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: conference.type }],
     ['meta', { property: 'og:site_name', content: conference.site_name }],
     ['meta', { property: 'og:image', content: conference.og_image }],
-    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-C9EMTMDSS1' }],
+    [
+      'script',
+      {
+        async: '',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-C9EMTMDSS1',
+      },
+    ],
     [
       'script',
       {},
