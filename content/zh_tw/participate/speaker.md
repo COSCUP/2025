@@ -97,7 +97,7 @@ Call for Proposals 已公告，各社群議程軌的介紹可以參考[這篇文
 
 - 提交稿件：<https://pretalx.coscup.org/coscup-2024/>
 - 各社群議程軌介紹：[整理版本](./2024_cfp.md)
-- 議程組聯絡信箱：<program@coscup.org>
+- 議程組聯絡信箱：[program@coscup.org](mailto:program@coscup.org)
 
 確定成為議程講者後，請再次確認議程時間與地點，如何聯絡社群議程負責人，如無法或不知如何聯繫，可以尋求議程組的協助。
 

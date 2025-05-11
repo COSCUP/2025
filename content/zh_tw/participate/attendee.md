@@ -115,7 +115,7 @@ COSCUP 除了社群議程之外，我們也提供給予會眾身心靈放鬆的�
 :::info 相關聯絡資訊
 
 - 「志工服務台」`TR-312`：COSCUP 志工服務諮詢、招募與推廣。
-- 行政組信箱：<secretary@coscup.org>
+- 行政組信箱：[secretary@coscup.org](mailto:secretary@coscup.org)
 
 :::
 

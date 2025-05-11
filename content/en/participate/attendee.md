@@ -142,7 +142,7 @@ We currently have approximately 60 openings for "One-Day Volunteers." You can re
 :::info Contact
 
 - **Volunteer Service Desk** `TR-312`: For all volunteer service inquiries, recruitment, and promotion related to COSCUP.
-- Administrative Team Email: <secretary@coscup.org>
+- Administrative Team Email: [secretary@coscup.org](mailto:secretary@coscup.org)
 
 :::
 

@@ -97,7 +97,7 @@ As COSCUP sees increasing participation from international partners, it is sugge
 
 - Submit your proposal: <https://pretalx.coscup.org/coscup-2024/>
 - Introductions to each community track: [Compiled version](./2024_cfp.md).
-- Contact email for the Program Team: <program@coscup.org>.
+- Contact email for the Program Team: [program@coscup.org](mailto:program@coscup.org).
 
 After confirming your role as a session speaker, please double-check the schedule and location, and how to contact the community track coordinator. If you are unable or unsure how to make contact, you can seek assistance from the programming team.
 
