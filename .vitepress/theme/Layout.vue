@@ -10,7 +10,7 @@ import { useSidebar } from 'vitepress/dist/client/theme-default/composables/side
 import { computed, provide, useSlots, watch, watchEffect } from 'vue'
 import VPContent from '/@/components/VPContent.vue'
 
-const { lang, frontmatter } = useData()
+const { frontmatter } = useData()
 
 const {
   isOpen: isSidebarOpen,
