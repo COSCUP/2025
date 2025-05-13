@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import Banner from '#components/Banner.vue'
-import { inBrowser, useData, useRoute } from 'vitepress'
+import { useData, useRoute } from 'vitepress'
 import VPBackdrop from 'vitepress/dist/client/theme-default/components/VPBackdrop.vue'
 import VPLocalNav from 'vitepress/dist/client/theme-default/components/VPLocalNav.vue'
 import VPNav from 'vitepress/dist/client/theme-default/components/VPNav.vue'
