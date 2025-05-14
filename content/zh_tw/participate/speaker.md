@@ -8,8 +8,11 @@
 
 Call for Proposals 已公告，各社群議程軌的介紹可以參考[這篇文章](https://volunteer.coscup.org/docs/zh-TW/about_coscup/how_to_participate/2024_cfp/)。
 
-[:material-send-check-outline: 前往議程投稿](https://pretalx.coscup.org/coscup-2024/){ .md-button .md-button--primary }
-[:octicons-info-16: 各議程軌投稿簡介](https://volunteer.coscup.org/docs/zh-TW/about_coscup/how_to_participate/2024_cfp/){ .md-button .md-button--primary }
+<VPButton href="https://pretalx.coscup.org/coscup-2024/">前往議程投稿</VPButton>
+<VPButton href="https://volunteer.coscup.org/docs/zh-TW/about_coscup/how_to_participate/2024_cfp/">各議程軌投稿簡介</VPButton>
+
+<!-- [:material-send-check-outline: ](){ .md-button .md-button--primary }
+[:octicons-info-16: ](){ .md-button .md-button--primary } -->
 
 :::
 

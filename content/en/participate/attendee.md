@@ -68,7 +68,9 @@ Currently, there are two ways to view the schedule. Please choose the one that s
 2. [Pretalx Submission System](https://pretalx.coscup.org/coscup-2024/schedule/)：Offers various ways to view by "Schedule," "Sessions," or "Speakers." It's slightly more suited for mobile devices, tablets, or those who prefer a listed format.
 3. [Schedule from Volunteer Platform](https://volunteer.coscup.org/schedule/2024): Displays session tracks in a listed format, allowing you to bookmark, add to your calendar, and discuss sessions.
 
-[Offcial Schedule](https://coscup.org/2024/en/session){ .md-button } [Pretalx Submission System](https://pretalx.coscup.org/coscup-2024/schedule/){ .md-button } [Schedule from Volunteer Platform](https://volunteer.coscup.org/schedule/2024){ .md-button }
+<VPButton href="https://coscup.org/2024/en/session">Offcial Schedule</VPButton>
+<VPButton href="https://pretalx.coscup.org/coscup-2024/schedule/">Pretalx Submission System</VPButton>
+<VPButton href="https://volunteer.coscup.org/schedule/2024">Schedule from Volunteer Platform</VPButton>
 
 ## BoF
 
@@ -76,7 +78,7 @@ What is a BoF? **Birds of a Feather** is a phrase originating from the proverb "
 
 You can register the BoF activity you want to initiate in [this document](https://docs.google.com/document/d/1Nn5j549QfJ-QhS2RCje91g5Qt9WVsjxxuFBvb51IpI4/). Examples include: "Giveaways Exchange: I have some giveaways from other conferences that I'd like to swap with others!" or "[PGP Key-signing Party](https://en.wikipedia.org/wiki/Key_signing_party)" (though, is anyone still using PGP these days?).
 
-[BoF Registration and Participation](https://docs.google.com/document/d/1Nn5j549QfJ-QhS2RCje91g5Qt9WVsjxxuFBvb51IpI4/){ .md-button }
+<VPButton href="https://docs.google.com/document/d/1Nn5j549QfJ-QhS2RCje91g5Qt9WVsjxxuFBvb51IpI4/">BoF Registration and Participation</VPButton>
 
 ### Giveaways Exchange
 
@@ -113,7 +115,7 @@ In addition to community sessions, COSCUP also provides services to help attende
 - 「[Healing Lectures](https://volunteer.coscup.org/docs/en/about_coscup/healing_lectures/overview/)」：Continuing the "healing" topic, this series of lectures focuses on "trauma and recovery." If you're interested, you are welcome to attend and listen.
 - 「[Junior Workshop](https://volunteer.coscup.org/docs/zh-TW/about_coscup/junior_workshop/overview/)」：Suitable for children who are new to the open-source and maker fields. This year, we offer popular courses like soldering and video game making. Get ready to ask your kids which class they want to attend!
 
-["Attendee Services" Overview](https://volunteer.coscup.org/docs/en/about_coscup/attendee_services/){ .md-button }
+<VPButton href="https://volunteer.coscup.org/docs/en/about_coscup/attendee_services/">"Attendee Services" Overview</VPButton>
 
 :::info "Services Overview"
 
@@ -137,7 +139,7 @@ In addition to our core preparation team, we offer the "One-Day Volunteer" servi
 
 We currently have approximately 60 openings for "One-Day Volunteers." You can review the available positions and see how you can participate. If you have any questions, feel free to contact the administrative team or visit the "Volunteer Service Desk" on the event day for more details.
 
-[Join Us! "One-Day Volunteer"](https://volunteer.coscup.org/tasks/2024){ .md-button }
+<VPButton href="https://volunteer.coscup.org/tasks/2024">Join Us! "One-Day Volunteer"</VPButton>
 
 :::info Contact
 
@@ -211,4 +213,4 @@ We apologize that we couldn't complete the Taiwan Food Guide before the conferen
 
 Finally, we kindly ask you to complete the [Attendee Survey](https://coscup.org/2024-survey/). This will help us better understand the profile of COSCUP attendees. Since we've moved to an open, registration-free model, conducting this type of survey has become increasingly challenging. Your assistance in completing this survey would be greatly appreciated!
 
-[Assist in Completing the "Attendee Survey"](https://coscup.org/2024-survey/){ .md-button }
+<VPButton href="https://coscup.org/2024-survey/">Assist in Completing the "Attendee Survey"</VPButton>
