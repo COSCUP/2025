@@ -8,7 +8,7 @@ If this is your first time sponsoring or attending COSCUP, you might want to fam
 
 :::
 
-[Attendee Participation Guide](./attendee.md){ .md-button }
+<VPButton href="./attendee.md">Attendee Participation Guide</VPButton>
 
 ## Sponsorship Booth
 

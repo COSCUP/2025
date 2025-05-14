@@ -10,8 +10,11 @@ The Call for Proposals has been announced. You can refer to [this article](https
 
 :::
 
-[Submit your proposals](https://pretalx.coscup.org/coscup-2024/){ .md-button .md-button--primary }
-[Tracks Introduction](https://volunteer.coscup.org/docs/en/about_coscup/how_to_participate/2024_cfp/){ .md-button .md-button--primary }
+<VPButton href="https://pretalx.coscup.org/coscup-2024/">Submit your proposals</VPButton>
+<VPButton href="https://volunteer.coscup.org/docs/en/about_coscup/how_to_participate/2024_cfp/">Tracks Introduction</VPButton>
+
+<!-- [](){ .md-button .md-button--primary }
+[](){ .md-button .md-button--primary } -->
 
 ## Speaker Framework
 
@@ -103,6 +106,6 @@ After confirming your role as a session speaker, please double-check the schedul
 
 Since COSCUP is a community-driven annual conference, each community has its own way of presenting topics. The conference provides a platform and resources to attract attendees to the venue, and we hope that you can also help promote and publicize COSCUP through your community channels.
 
-In your spare time, you are welcome to switch to the role of an attendee, explore the booths, and participate in various activities. For more information, refer to the [Attendee](./attendee.md
+In your spare time, you are welcome to switch to the role of an attendee, explore the booths, and participate in various activities. For more information, refer to the [Attendee](./attendee.md)
 
-[Attendee Participation Guide](./attendee.md){ .md-button }
+<VPButton href="./attendee.md">Attendee Participation Guide</VPButton>

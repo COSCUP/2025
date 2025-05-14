@@ -42,7 +42,9 @@ COSCUP 是由開源社群主持開源議題、議程，因此我們會在同一�
 2. [Pretalx 投稿系統](https://pretalx.coscup.org/coscup-2024/schedule/)：可針對「議程表」、「議程」或「講者」呈現不同的瀏覽方式，稍微適合行動裝置、平板尺寸、或比較習慣條列式的呈現。
 3. [志工平台議程表](https://volunteer.coscup.org/schedule/2024)：針對議程軌條列呈現，可收藏、加入行事曆與留言討論議程。
 
-[COSCUP 官方議程](https://coscup.org/2024/zh-TW/session){ .md-button } [Pretalx 投稿系統](https://pretalx.coscup.org/coscup-2024/schedule/){ .md-button } [志工平台議程表](https://volunteer.coscup.org/schedule/2024){ .md-button }
+<VPButton href="https://coscup.org/2024/zh-TW/session">COSCUP 官方議程</VPButton>
+<VPButton href="https://pretalx.coscup.org/coscup-2024/schedule/">Pretalx 投稿系統</VPButton>
+<VPButton href="https://volunteer.coscup.org/schedule/2024">志工平台議程表</VPButton>
 
 ## BoF
 
@@ -50,7 +52,7 @@ COSCUP 是由開源社群主持開源議題、議程，因此我們會在同一�
 
 你可以在[這份文件](https://docs.google.com/document/d/1Nn5j549QfJ-QhS2RCje91g5Qt9WVsjxxuFBvb51IpI4/)中登記你想要發起的 BoF 活動，例如：「交換紀念品：我可能在其他研討會拿的紀念品，想與大家交換！」、「[交換 PGP 簽章](https://zh.wikipedia.org/zh-tw/%E5%AF%86%E9%92%A5%E7%AD%BE%E5%90%8D%E8%81%9A%E4%BC%9A)（不過現在還有人在用 PGP 嗎？）」
 
-[BoF 登記與參與](https://docs.google.com/document/d/1Nn5j549QfJ-QhS2RCje91g5Qt9WVsjxxuFBvb51IpI4/){ .md-button }
+<VPButton href="https://docs.google.com/document/d/1Nn5j549QfJ-QhS2RCje91g5Qt9WVsjxxuFBvb51IpI4/">BoF 登記與參與</VPButton>
 
 ### 結緣品交換會
 
@@ -110,7 +112,7 @@ COSCUP 除了社群議程之外，我們也提供給予會眾身心靈放鬆的�
 
 目前提供約 60 個「一日志工」缺額，可以檢視可否參與的項目，如有任何問題，可以洽詢行政組或在活動日當天前往「志工服務台」詢問更多志工事宜。
 
-[捲起袖子，成為「一日志工」](https://volunteer.coscup.org/tasks/2024){ .md-button }
+<VPButton href="https://volunteer.coscup.org/tasks/2024">捲起袖子，成為「一日志工」</VPButton>
 
 :::info 相關聯絡資訊
 
@@ -127,7 +129,7 @@ COSCUP 除了社群議程之外，我們也提供給予會眾身心靈放鬆的�
             alt="COSCUP 形象照拍攝 Portrait" title="COSCUP 形象照拍攝 Portrait"
             style="border-radius: 8px;border:1px solid hsl(0, 0%, 50%);">
     </a>
-    <figcaption>照片拍攝：[丞相-5D5563](https://www.flickr.com/photos/coscup/53320873019/)</figcaption>
+    <figcaption>照片拍攝：<a href="https://www.flickr.com/photos/coscup/53320873019/">[丞相-5D5563]</a></figcaption>
 </figure>
 
 形象照拍攝在 2023 第一次提供的服務，由大會**紀錄組**選定一間教室後、搭建一個專業攝影棚拍攝個人形象照。如果你的求職網站、個人網站、社群網站的頭貼想要表現出開源參與、專業氣質的話，可以體驗、使用「形象照拍攝」服務。
@@ -146,7 +148,7 @@ COSCUP 除了社群議程之外，我們也提供給予會眾身心靈放鬆的�
             alt="COSCUP 社群佈告欄" title="COSCUP 社群佈告欄"
             style="border-radius: 8px;border:1px solid hsl(0, 0%, 50%);">
     </a>
-    <figcaption>照片拍攝：[海哥-A922955](https://www.flickr.com/photos/coscup/53190487467/)</figcaption>
+    <figcaption>照片拍攝：<a href="https://www.flickr.com/photos/coscup/53190487467/">[海哥-A922955]</a></figcaption>
 </figure>
 
 活動場地在臺科大教學大樓內，各樓層的佈告欄都有 COSCUP 為社群規劃的專屬佈告欄，我們希望您個人或是所屬的社群、服務單位都可以好好利用佈告欄來[張貼](https://www.flickr.com/photos/coscup/)**個人開源專案**、**社群簡介**或**活動預告資訊**、甚至是您社群的年會時間表…等任何**與開源有關的宣傳事宜**。
@@ -184,4 +186,4 @@ COSCUP 除了社群議程之外，我們也提供給予會眾身心靈放鬆的�
 
 最後，再請幫我完成「[參與者調查](https://coscup.org/2024-survey/)」，以利我們描繪出參與 COSCUP 的會眾是怎樣的樣貌，在開放不用報名後，這一類型的調查越來越困難，如果能協助我們完成，會非常的感謝！
 
-[協助完成「參與者調查」](https://coscup.org/2024-survey/){ .md-button }
+<VPButton href="https://coscup.org/2024-survey/">協助完成「參與者調查」</VPButton>

@@ -215,3 +215,14 @@ body {
     justify-content: center;
   }
 }
+
+/**
+ * Figure in page
+ * -------------------------------------------------------------------------- */
+figure {
+  display: inline-block;
+  text-align: center;
+}
+figure img {
+  vertical-align: top;
+}
