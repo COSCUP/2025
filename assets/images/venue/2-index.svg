@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#B3B3B3;stroke-width:4.4344;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:#E6E6E6;}
+	.st2{fill:#FFFEFF;}
+	.st3{fill:#B3B3B3;}
+	.st4{fill:none;stroke:#B3B3B3;stroke-width:4.4344;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#FFFEFF;stroke-width:3;stroke-miterlimit:10;}
+	.st6{fill:#3B9838;}
+	.st7{font-family:'NotoSansCJKtc-Bold-B5pc-H';}
+	.st8{font-size:38px;}
+	.st9{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;}
+	.st10{opacity:0.73;}
+	.st11{fill:#EAEAEA;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;}
+	.st12{fill:#EAEAEA;stroke:#FFFFFF;stroke-width:5;stroke-linecap:round;stroke-linejoin:bevel;}
+	.st13{font-family:'NotoSansCJKtc-Black-B5pc-H';}
+	.st14{font-size:24px;}
+	.st15{font-family:'NotoSansCJKtc-Medium-B5pc-H';}
+	.st16{fill:#579B57;}
+	.st17{opacity:0.1;fill:#70931B;}
+	.st18{fill:none;stroke:#FFFEFF;stroke-miterlimit:10;}
+	.st19{fill:#C1272D;}
+	.st20{fill:#30AF00;}
+	.st21{fill:#0076CB;}
+	.st22{fill:#FFFFFF;}
+	.st23{fill:#008061;}
+	.st24{fill:#F5821F;}
+	.st25{fill:#ED1B2D;}
+	.st26{fill:#12344C;}
+	.st27{opacity:0.5;fill:url(#SVGID_1_);}
+	.st28{opacity:0.5;fill:url(#SVGID_00000046323357028455603670000008799141490649064608_);}
+	.st29{fill:#E98025;}
+	.st30{fill:#0071BC;}
+	.st31{fill:#808080;}
+	.st32{fill:#FFE9BA;}
+	.st33{fill:#3E3D4D;}
+	.st34{fill:#BCC4C6;}
+	.st35{fill:#D24635;}
+	.st36{fill:#FCF3EE;}
+	.st37{fill:#E8C72E;}
+	.st38{fill:#E0A911;}
+	.st39{opacity:0.2;fill:none;stroke:#70931B;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:4,4;}
+	.st40{opacity:0.2;fill:none;stroke:#70931B;stroke-width:1.78;stroke-miterlimit:10;stroke-dasharray:3.56,3.56;}
+	.st41{fill:#EE2041;}
+	.st42{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st43{fill:#0074A9;}
+	.st44{fill:#EB6101;}
+	.st45{fill:#E4007F;}
+	.st46{fill:#EB6877;}
+	.st47{fill:#CC0000;}
+	.st48{fill:#474747;}
+	.st49{font-size:28px;}
+	.st50{font-size:20.6523px;}
+	.st51{font-family:'MicrosoftJhengHeiBold';}
+	.st52{font-size:12px;}
+	.st53{fill:#6B6B6B;}
+	.st54{font-size:16px;}
+	.st55{opacity:0.8;}
+	.st56{fill:none;stroke:#3B9838;stroke-width:3;stroke-miterlimit:10;}
+	.st57{fill-rule:evenodd;clip-rule:evenodd;fill:#040000;}
+	.st58{fill:#040000;}
+	.st59{fill:none;stroke:#040000;stroke-width:0.75;stroke-linejoin:round;stroke-miterlimit:8;}
+	
+		.st60{opacity:0;fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#040000;stroke-width:0.75;stroke-linejoin:round;stroke-miterlimit:8;}
+	
+		.st61{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#040000;stroke-width:0.75;stroke-linejoin:round;stroke-miterlimit:8;}
+	.st62{fill:#E2E2E2;stroke:#040000;stroke-width:0.75;stroke-linejoin:round;stroke-miterlimit:8;}
+	
+		.st63{fill-rule:evenodd;clip-rule:evenodd;fill:#E2E2E2;stroke:#040000;stroke-width:0.75;stroke-linejoin:round;stroke-miterlimit:8;}
+	.st64{display:none;}
+	.st65{display:inline;fill:none;stroke:#F90000;stroke-width:8;stroke-miterlimit:10;}
+	.st66{display:inline;}
+	.st67{display:inline;fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st68{display:inline;fill:#F90000;}
+	.st69{display:inline;fill:none;stroke:#232323;stroke-miterlimit:10;}
+	.st70{display:inline;fill:none;stroke:#F90000;stroke-width:3;stroke-miterlimit:10;}
+	.st71{display:inline;fill:#FFFEFF;}
+	.st72{display:inline;fill:none;stroke:#B3B3B3;stroke-width:4.4344;stroke-linecap:round;stroke-miterlimit:10;}
+	.st73{display:inline;fill:#E6E6E6;}
+	.st74{display:inline;fill:#B3B3B3;}
+	.st75{display:inline;fill:none;stroke:#B3B3B3;stroke-width:4.4344;stroke-miterlimit:10;}
+	.st76{display:inline;opacity:0.2;fill:none;stroke:#70931B;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:4,4;}
+	.st77{display:inline;fill:none;stroke:#333131;stroke-miterlimit:10;}
+	.st78{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st79{display:inline;fill:#F5EB31;stroke:#231815;stroke-miterlimit:10;}
+	.st80{display:inline;fill:#BE611C;stroke:#231815;stroke-miterlimit:10;}
+</style>
+<g id="建築">
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 543.6772 516.1264)" class="st6 st7 st8">TR2F-TR6F</text>
+		</g>
+		<g>
+			<g>
+				<path class="st6" d="M737.8,550.5l1.9,3.4c-3.3,2.6-6.8,6.5-9,9.9c-2.2-3.4-5.7-7.3-9-9.9l1.9-3.4c1.9,1.4,4,3.4,5.2,5.1v-26.9
+					h3.9v26.9C733.8,553.9,735.9,551.9,737.8,550.5z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g id="blender_frame_1_00000010270185801676303660000016250783736411993526_">
+			<g id="blender_object_LineArt_00000091723419229674601730000001717151108598293693_">
+				<g id="Lines_00000028295187582371730280000000208479318405352600_">
+					<polygon class="st6" points="712.2,284.9 712.2,353.3 679,371 650.5,386.3 650.5,389 639.2,395.1 636.2,393.9 615.5,386.1 
+						615.5,317.8 653.3,297.5 653.3,293 686.4,275.2 					"/>
+					<polygon class="st6" points="543.2,221.8 543.2,288.8 534.9,293.3 534.9,294.9 526.7,299.4 524.9,298.7 521.6,300.4 
+						520.8,300.8 512.4,305.3 491.9,297.6 484.1,301.2 472,296.2 472,286.6 423.5,264.1 423.5,197.1 442.2,187.1 499.3,208.6 
+						503,206.6 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g id="blender_frame_1_00000045598147341494512380000004374608317191383439_">
+			<g id="blender_object_LineArt_00000024709517522804064660000015940115279776374929_">
+				<g id="Lines_00000018223968003136195480000014679658987989955726_">
+					<polyline class="st9" points="472,230.2 472,296.2 484.1,301.4 484.1,234.7 					"/>
+					<polyline class="st9" points="491.9,297.6 512.4,305.3 520.8,300.8 521.6,300.4 524.9,298.7 526.7,299.3 534.9,294.9 
+						534.9,293.3 534.9,227.9 					"/>
+					<polyline class="st9" points="472,286.6 423.5,264.1 423.5,197.1 					"/>
+					<polyline class="st9" points="543.2,221.8 543.2,288.8 534.9,293.3 					"/>
+					<line class="st9" x1="524.9" y1="298.7" x2="524.9" y2="231.7"/>
+					<line class="st9" x1="512.4" y1="305.3" x2="512.4" y2="238.3"/>
+					<polygon class="st9" points="533.1,227.2 534.9,227.9 526.7,232.3 524.9,231.7 521.6,233.4 520.8,233.8 512.4,238.3 
+						491.9,230.6 484.1,234.7 472,230.2 479.8,226 488.2,221.5 480.6,218.6 423.5,197.1 442.2,187.1 499.3,208.6 503,206.6 
+						543.2,221.8 					"/>
+					<line class="st9" x1="491.9" y1="297.6" x2="491.9" y2="230.6"/>
+					<line class="st9" x1="491.9" y1="297.6" x2="484.7" y2="301.4"/>
+					<line class="st9" x1="526.7" y1="232.3" x2="526.7" y2="299.4"/>
+					<polygon class="st9" points="679,302.7 647.5,319.6 650.5,320.7 639.2,326.7 636.2,325.6 615.5,317.8 653.3,297.5 658.3,294.9 
+						653.3,293 686.4,275.2 712.2,284.9 					"/>
+					<polyline class="st9" points="639.2,395.1 636.2,393.9 615.5,386.1 615.5,317.8 					"/>
+					<line class="st9" x1="653.3" y1="297.5" x2="653.3" y2="293"/>
+					<polyline class="st9" points="712.2,284.9 712.2,353.3 679,371 650.5,386.3 					"/>
+					<polyline class="st9" points="639.2,395.1 650.5,389 650.5,386.3 650.5,320.7 					"/>
+					<line class="st9" x1="639.2" y1="395.1" x2="639.2" y2="326.7"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g class="st10">
+		<g>
+			<g id="blender_frame_1_00000085959295004458614930000004355090862660118961_">
+				<g id="blender_object_LineArt_00000159471591158041559020000012512754622882125996_">
+					<g id="Lines_00000072976030498804754510000012354613188961850270_">
+						<polygon class="st11" points="616.3,317.2 615.1,316.8 607.4,313.9 600.7,311.3 595.3,309.3 591.7,308 590.4,307.5 
+							587.5,306.5 584.3,305.7 581.1,305.2 577.7,304.8 574.3,304.6 570.8,304.7 567.4,304.9 564.1,305.3 560.9,306 557.9,306.8 
+							555.1,307.8 552.6,308.9 550.4,310.3 548.7,311.7 547.5,313.2 546.7,314.7 546.3,316.2 546.3,319.6 546.4,321.2 546.9,322.7 
+							547.8,324.2 549.2,325.6 551,327 553.2,328.2 555.9,329.4 615.5,351.9 						"/>
+						<polygon class="st11" points="561.8,257.4 561.8,294.8 502.1,326.7 502.1,289.4 512.4,283.8 524.9,277.2 526.7,276.2 
+							534.9,271.8 543.2,267.4 						"/>
+						<polygon class="st11" points="561.8,257.4 543.2,267.4 534.9,271.8 526.7,276.2 524.9,277.2 512.4,283.8 502.1,289.4 
+							491.9,285.5 487.1,283.7 491.9,281.1 512.4,270.2 524.9,263.5 526.7,262.5 534.9,258.1 543.2,253.7 546.8,251.8 						"/>
+						<polygon class="st11" points="502.1,289.4 502.1,326.7 499.7,325.9 499.7,311.1 487.1,306.3 487.1,283.7 491.9,285.5 						
+							"/>
+						<polyline class="st11" points="499.7,325.9 499.7,328 482.3,337.3 383.7,300.1 383.7,283.2 						"/>
+						<line class="st11" x1="482.3" y1="337.3" x2="482.3" y2="320.4"/>
+						<polyline class="st11" points="525.4,324.7 573,342.7 573,346.1 549.3,358.8 501.6,340.8 501.6,337.4 525.4,324.7 						"/>
+						<polyline class="st11" points="501.6,337.4 549.3,355.4 573,342.7 						"/>
+						<line class="st11" x1="549.3" y1="355.4" x2="549.3" y2="358.8"/>
+						<polygon class="st11" points="615.5,358.7 586,347.6 562.2,360.3 562.2,363.7 609.9,381.7 615.5,378.7 						"/>
+						<polyline class="st11" points="615.5,375.3 609.9,378.3 562.2,360.3 						"/>
+						<line class="st11" x1="609.9" y1="378.3" x2="609.9" y2="381.7"/>
+						<polyline class="st11" points="546.3,316.2 546.4,317.8 546.9,319.3 547.8,320.8 549.2,322.2 551,323.6 553.2,324.8 
+							555.9,326 615.5,348.5 						"/>
+						<polyline class="st11" points="389.2,280.2 386.6,279.2 389.2,280.2 						"/>
+						<line class="st11" x1="406.6" y1="275.9" x2="406.6" y2="242.4"/>
+						<line class="st11" x1="423" y1="239.2" x2="423" y2="233.6"/>
+						<polygon class="st11" points="458.3,231.9 441.9,240.7 425.5,249.5 423.5,248.8 412.7,244.7 423,239.2 423.5,238.9 
+							429.2,235.9 423.5,233.8 423,233.6 406.6,242.4 386.6,234.8 423.5,215.1 423.5,218.7 439.5,224.8 442.5,225.9 442.5,225.9 
+													"/>
+						<line class="st11" x1="386.6" y1="279.2" x2="386.6" y2="234.8"/>
+						<polygon class="st11" points="499.7,311.1 482.3,320.4 383.7,283.2 389.2,280.2 401.1,273.8 406.6,275.9 412.7,278.2 
+							425.5,283 437.4,287.5 451,292.7 469.5,299.6 484.7,305.4 487.1,306.3 						"/>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g id="blender_frame_1_00000084532005374841841250000014128523941373804163_">
+				<g id="blender_object_LineArt_00000168802075726661798590000002759569724101236661_">
+					<g id="Lines_00000053530099980200424770000001418075322479963777_">
+						<polyline class="st11" points="457.4,276.8 458.3,276.3 458.3,231.9 442.5,225.9 442.5,225.9 439.5,224.8 423.5,218.7 						
+							"/>
+						<polygon class="st11" points="458.3,231.9 458.3,276.3 457.4,276.8 441.9,285.1 437.4,287.5 425.5,283 425.5,249.5 
+							441.9,240.7 						"/>
+						<polygon class="st11" points="425.5,249.5 425.5,283 412.7,278.2 412.7,244.7 423.5,248.8 						"/>
+						<polyline class="st11" points="423.1,238.9 423,233.8 429.2,235.9 						"/>
+					</g>
+				</g>
+			</g>
+			<polygon class="st11" points="406,275.7 412.7,278.2 412.7,244.7 423,239.2 423,233.6 406.6,242.4 			"/>
+		</g>
+		<polygon class="st12" points="386.6,234.8 386.6,279.2 389.2,280.2 401.1,273.8 406.6,275.9 406.6,242.4 		"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 462.9704 180.5249)" class="st6 st13 st14">RB</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 191.8211 80.7938)" class="st6 st15 st14">RB Building</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 666.1437 465.6893)" class="st6 st15 st14">TR Building</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 703.2921 270.15)" class="st6 st13 st14">TR</text>
+	</g>
+</g>
+<g id="標示">
+</g>
+<g id="文字資訊">
+	<rect x="22.2" y="51.5" class="st6" width="158.7" height="37.3"/>
+	<g>
+		<text transform="matrix(1 0 0 1 30.5303 364.8307)" class="st6 st7 st49">RB105</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 39.7276 78.8319)" class="st22 st7 st50">綜合研究大樓</text>
+	</g>
+	<rect x="544.3" y="438.4" class="st6" width="111" height="37.3"/>
+	<g>
+		<text transform="matrix(1 0 0 1 558.9114 465.6893)" class="st22 st7 st50">研揚大樓</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 136.7178 377.3291)"><tspan x="0" y="0" class="st51 st52">主議程軌</tspan><tspan x="0" y="17.2" class="st51 st52">Main Track</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 136.0635 354.084)" class="st53 st51 st54">Day01</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 30.5303 270.4948)" class="st6 st7 st49">RB102</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 137.0283 284.9718)"><tspan x="0" y="0" class="st51 st52">Google 開發者派對</tspan><tspan x="0" y="17.2" class="st51 st52">Google Developer Party</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 136.0635 261.7267)" class="st53 st51 st54">Day01 / Day02</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 30.5303 136.5597)" class="st6 st7 st49">RB101</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 136.8701 136.9512)"><tspan x="0" y="0" class="st51 st52">科技領域的多元共融 - 療癒講座</tspan><tspan x="0" y="17.2" class="st51 st52">Diversity and Inclusivity in Tech - Healing Lectures</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 136.8699 445.7617)"><tspan x="0" y="0" class="st51 st52">科技領域的多元共融 - 療癒講座</tspan><tspan x="0" y="17.2" class="st51 st52">Diversity and Inclusivity in Tech - Healing Lectures</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 136.0635 120.2107)" class="st53 st51 st54">Day01 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 137.0283 204.1857)"><tspan x="0" y="0" class="st51 st52">開源設計工作坊</tspan><tspan x="0" y="15" class="st51 st52">Open Source Design Workshop</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 136.0635 184.9777)" class="st53 st51 st54">Day02</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 136.448 488.2313)" class="st51 st52">Infra Review、閃電秀、閉幕</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 136.0632 424.0067)" class="st53 st51 st54">Day02</text>
+	</g>
+</g>
+<g id="樓層位置">
+</g>
+<g id="輸出佈置" class="st64">
+</g>
+<g id="指標" class="st64">
+</g>
+</svg>
