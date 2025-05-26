@@ -6,7 +6,7 @@ import VPLocalNav from 'vitepress/dist/client/theme-default/components/VPLocalNa
 import VPNav from 'vitepress/dist/client/theme-default/components/VPNav.vue'
 import VPSkipLink from 'vitepress/dist/client/theme-default/components/VPSkipLink.vue'
 
-import { useSidebar } from 'vitepress/dist/client/theme-default/composables/sidebar.js'
+import { useSidebar } from 'vitepress/theme'
 import { computed, provide, useSlots, watch, watchEffect } from 'vue'
 
 const { lang, frontmatter } = useData()

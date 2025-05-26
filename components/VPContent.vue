@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import VPSidebar from '#components/VPSidebar.vue'
 import { useData } from 'vitepress'
-import VPDoc from 'vitepress/dist/client/theme-default/components/VPDoc.vue'
+// import * as theme from 'vitepress/dist/client/theme-default/components'
 import VPHome from 'vitepress/dist/client/theme-default/components/VPHome.vue'
 import VPPage from 'vitepress/dist/client/theme-default/components/VPPage.vue'
-import { useSidebar } from 'vitepress/dist/client/theme-default/composables/sidebar.js'
-import NotFound from 'vitepress/theme'
+import NotFound, { useSidebar } from 'vitepress/theme'
+// import VPPage from 'vitepress/theme'
 
 const props = defineProps<{
   open: boolean

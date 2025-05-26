@@ -2,7 +2,7 @@
 import { useScrollLock } from '@vueuse/core'
 import { inBrowser } from 'vitepress'
 import VPSidebarGroup from 'vitepress/dist/client/theme-default/components/VPSidebarGroup.vue'
-import { useSidebar } from 'vitepress/dist/client/theme-default/composables/sidebar'
+import { useSidebar } from 'vitepress/theme'
 import { ref, watch } from 'vue'
 
 const props = defineProps<{
