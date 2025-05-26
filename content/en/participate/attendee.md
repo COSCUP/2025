@@ -1,7 +1,3 @@
-<script setup lang='ts'>
-import Tab from '/@/components/Tab.vue';
-</script>
-
 # Attendee
 
 COSCUP is different from other conferences because it is a **community-driven event**, organized by the open-source community. The conference features community tracks, workshops, BoFs, and more. Starting from 2020, COSCUP **no longer requires registration** or ticket purchase to participate. This change also gradually extends the "open-source spirit" from programming to other fields such as "design," "policy," "education," etc., providing a platform for practical sharing in various domains.
