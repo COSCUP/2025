@@ -36,6 +36,7 @@
     "@types/leaflet": "1.9.18",
     "@types/node": "22.15.30",
     "eslint": "9.28.0",
+    "@types/markdown-it-container": "^2.0.10",
     "eslint-plugin-format": "1.0.1",
     "husky": "9.1.7",
     "lint-staged": "16.1.0",
