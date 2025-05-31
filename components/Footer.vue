@@ -1,9 +1,21 @@
 <script setup lang="ts">
 import { conference } from '#data/conference.js'
+import { useData } from 'vitepress'
+import { computed } from 'vue'
+
+const { frontmatter } = useData()
+
+const footerId = computed(() => {
+  const layout = frontmatter.value.layout
+  return layout === 'doc' ? 'doc' : ''
+})
 </script>
 
 <template>
-  <footer id="footer">
+  <footer
+    :id="footerId"
+    class="footer"
+  >
     <section class="title">
       <h1>COSCUP x RubyConf Taiwan 2025</h1>
       <h2>Conference for Open Source Coders, Users, and Promoters</h2>
@@ -72,16 +84,16 @@ import { conference } from '#data/conference.js'
 </template>
 
 <style scoped>
-#footer {
+.footer {
   border-top: 1px solid var(--vp-c-gutter);
   padding: 32px 64px;
 }
 
-#footer section {
+.footer section {
   margin: 50px 0;
 }
 
-#footer h1 {
+.footer h1 {
   font-size: 28px;
   font-weight: bold;
   text-align: center;
@@ -89,14 +101,14 @@ import { conference } from '#data/conference.js'
   margin: 20px;
 }
 
-#footer h2 {
+.footer h2 {
   font-size: 20px;
   text-align: center;
 
   margin: 20px;
 }
 
-#footer .contact {
+.footer .contact {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -106,21 +118,33 @@ import { conference } from '#data/conference.js'
   row-gap: 25px;
 }
 
-#footer :where(.history, .social) :is(p, a) {
+.footer :where(.history, .social) :is(p, a) {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   row-gap: 25px;
 }
 
-#footer :where(.history, .social) :is(span, a) {
+.footer :where(.history, .social) :is(span, a) {
   display: inline-block;
   width: 65px;
 
   text-align: center;
 }
 
-#footer .social {
+.footer .social {
   font-size: 24px;
+}
+
+.footer#doc {
+  width: auto;
+  margin-left: calc((100% - (var(--vp-layout-max-width) - 64px)) / 2 + var(--vp-sidebar-width) - 32px);
+}
+
+@media (max-width: 960px) {
+  .footer {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
 }
 </style>
