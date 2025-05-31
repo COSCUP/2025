@@ -1,13 +1,12 @@
 <script setup lang="ts">
 import { conference } from '#data/conference.js'
-import { useData } from 'vitepress'
+import { useSidebar } from 'vitepress/theme'
 import { computed } from 'vue'
 
-const { frontmatter } = useData()
+const { hasSidebar } = useSidebar()
 
 const footerId = computed(() => {
-  const layout = frontmatter.value.layout
-  return layout === 'doc' ? 'doc' : ''
+  return hasSidebar.value ? 'hasSidebar' : ''
 })
 </script>
 
@@ -136,7 +135,7 @@ const footerId = computed(() => {
   font-size: 24px;
 }
 
-.footer#doc {
+.footer#hasSidebar {
   width: auto;
   margin-left: calc((100% - (var(--vp-layout-max-width) - 64px)) / 2 + var(--vp-sidebar-width) - 32px);
 }
