@@ -13,7 +13,14 @@ watchEffect(() => {
 </script>
 
 <template>
-  <DefaultTheme.Layout />
+  <DefaultTheme.Layout>
+    <template #home-hero-before>
+      <Banner />
+    </template>
+    <template #layout-bottom>
+      <Footer />
+    </template>
+  </DefaultTheme.Layout>
 </template>
 
 <style scoped>
