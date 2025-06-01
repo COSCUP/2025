@@ -3,17 +3,15 @@ import { conference } from '#data/conference.js'
 import { useSidebar } from 'vitepress/theme'
 import { computed } from 'vue'
 
-const { hasSidebar } = useSidebar()
-
-const footerId = computed(() => {
-  return hasSidebar.value ? 'hasSidebar' : ''
+const hasSidebar = computed(() => {
+  return useSidebar().hasSidebar
 })
 </script>
 
 <template>
   <footer
-    :id="footerId"
-    class="footer"
+    id="footer"
+    :class="{ hasSidebar: hasSidebar.value }"
   >
     <section class="title">
       <h1>COSCUP x RubyConf Taiwan 2025</h1>
@@ -83,16 +81,16 @@ const footerId = computed(() => {
 </template>
 
 <style scoped>
-.footer {
+#footer {
   border-top: 1px solid var(--vp-c-gutter);
   padding: 32px 64px;
 }
 
-.footer section {
+#footer section {
   margin: 50px 0;
 }
 
-.footer h1 {
+#footer h1 {
   font-size: 28px;
   font-weight: bold;
   text-align: center;
@@ -100,14 +98,14 @@ const footerId = computed(() => {
   margin: 20px;
 }
 
-.footer h2 {
+#footer h2 {
   font-size: 20px;
   text-align: center;
 
   margin: 20px;
 }
 
-.footer .contact {
+#footer .contact {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -117,25 +115,25 @@ const footerId = computed(() => {
   row-gap: 25px;
 }
 
-.footer :where(.history, .social) :is(p, a) {
+#footer :where(.history, .social) :is(p, a) {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   row-gap: 25px;
 }
 
-.footer :where(.history, .social) :is(span, a) {
+#footer :where(.history, .social) :is(span, a) {
   display: inline-block;
   width: 65px;
 
   text-align: center;
 }
 
-.footer .social {
+#footer .social {
   font-size: 24px;
 }
 
-.footer#hasSidebar {
+#footer.hasSidebar {
   width: auto;
   margin-left: calc((100% - (var(--vp-layout-max-width) - 64px)) / 2 + var(--vp-sidebar-width) - 32px);
 }
