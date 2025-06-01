@@ -1,3 +1,12 @@
+<script setup lang="ts">
+
+const voteList = [
+  {href: 'https://pretalx.coscup.org/coscup-2024/', display: '前往議程投稿'},
+  {href: 'https://volunteer.coscup.org/docs/zh-TW/about_coscup/how_to_participate/2024_cfp/', display: '各議程軌投稿簡介'}
+]
+
+</script>
+
 # 議題講者
 
 如何成為議程講者。在 COSCUP 公佈社群議程軌後，可以開始準備挑戰送出你的稿件。這個階段會花些時間研究與建構主題，但把握一個原則，COSCUP 關注在開源領域的相關議題，但不論其表現、呈現方式為何。因此任何的想法與成果都歡迎透過議程組的徵稿流程提交！
@@ -8,11 +17,7 @@
 
 Call for Proposals 已公告，各社群議程軌的介紹可以參考[這篇文章](https://volunteer.coscup.org/docs/zh-TW/about_coscup/how_to_participate/2024_cfp/)。
 
-<VPButton href="https://pretalx.coscup.org/coscup-2024/">前往議程投稿</VPButton>
-<VPButton href="https://volunteer.coscup.org/docs/zh-TW/about_coscup/how_to_participate/2024_cfp/">各議程軌投稿簡介</VPButton>
-
-<!-- [:material-send-check-outline: ](){ .md-button .md-button--primary }
-[:octicons-info-16: ](){ .md-button .md-button--primary } -->
+<Actions :actionsList="voteList"/>
 
 :::
 

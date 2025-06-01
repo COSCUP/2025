@@ -1,3 +1,11 @@
+<script setup lang="ts">
+const scheduleActions = [
+    {href:"https://coscup.org/2024/en/session", display: 'Offcial Schedule'},
+    {href:"https://pretalx.coscup.org/coscup-2024/schedule", display: 'Pretalx Submission System'},
+    {href:"https://volunteer.coscup.org/schedule/2024", display: 'Schedule from Volunteer Platform'}
+]
+</script>
+
 # Attendee
 
 COSCUP is different from other conferences because it is a **community-driven event**, organized by the open-source community. The conference features community tracks, workshops, BoFs, and more. Starting from 2020, COSCUP **no longer requires registration** or ticket purchase to participate. This change also gradually extends the "open-source spirit" from programming to other fields such as "design," "policy," "education," etc., providing a platform for practical sharing in various domains.
@@ -64,9 +72,7 @@ Currently, there are two ways to view the schedule. Please choose the one that s
 2. [Pretalx Submission System](https://pretalx.coscup.org/coscup-2024/schedule/)：Offers various ways to view by "Schedule," "Sessions," or "Speakers." It's slightly more suited for mobile devices, tablets, or those who prefer a listed format.
 3. [Schedule from Volunteer Platform](https://volunteer.coscup.org/schedule/2024): Displays session tracks in a listed format, allowing you to bookmark, add to your calendar, and discuss sessions.
 
-<VPButton href="https://coscup.org/2024/en/session">Offcial Schedule</VPButton>
-<VPButton href="https://pretalx.coscup.org/coscup-2024/schedule/">Pretalx Submission System</VPButton>
-<VPButton href="https://volunteer.coscup.org/schedule/2024">Schedule from Volunteer Platform</VPButton>
+<Actions :actionsList="scheduleActions" />
 
 ## BoF
 

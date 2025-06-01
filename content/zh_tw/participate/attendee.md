@@ -1,3 +1,13 @@
+<script setup lang="ts">
+
+const scheduleActions = [
+    {href:"https://coscup.org/2024/zh-TW/session", display: 'COSCUP 官方議程'},
+    {href:"https://pretalx.coscup.org/coscup-2024/schedule", display: 'Pretalx 投稿系統'},
+    {href:"https://volunteer.coscup.org/schedule/2024", display: '志工平台議程表'}
+]
+
+</script>
+
 # 會眾參與
 
 COSCUP 與其他年會不一樣的是由開源社群一起參與的年會，年會也由社群議程、工作坊、Bof 等形式組成。從 2020 年之後，COSCUP 將不再需要報名與購票即可參與，也逐步將程式上的「**開源精神**」跨展到「設計」、「政策」、「教育」…等不同領域的實踐分享。
@@ -42,9 +52,7 @@ COSCUP 是由開源社群主持開源議題、議程，因此我們會在同一�
 2. [Pretalx 投稿系統](https://pretalx.coscup.org/coscup-2024/schedule/)：可針對「議程表」、「議程」或「講者」呈現不同的瀏覽方式，稍微適合行動裝置、平板尺寸、或比較習慣條列式的呈現。
 3. [志工平台議程表](https://volunteer.coscup.org/schedule/2024)：針對議程軌條列呈現，可收藏、加入行事曆與留言討論議程。
 
-<VPButton href="https://coscup.org/2024/zh-TW/session">COSCUP 官方議程</VPButton>
-<VPButton href="https://pretalx.coscup.org/coscup-2024/schedule/">Pretalx 投稿系統</VPButton>
-<VPButton href="https://volunteer.coscup.org/schedule/2024">志工平台議程表</VPButton>
+<Actions :actionsList="scheduleActions" />
 
 ## BoF
 

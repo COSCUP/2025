@@ -1,3 +1,12 @@
+<script setup lang="ts">
+
+const voteList = [
+  {href: 'https://pretalx.coscup.org/coscup-2024/', display: 'Submit your proposals'},
+  {href: 'https://volunteer.coscup.org/docs/en/about_coscup/how_to_participate/2024_cfp/', display: 'Tracks Introduction'}
+]
+
+</script>
+
 # Speakers
 
 How to become a session speaker. After COSCUP announces the community track agenda, you can start preparing to challenge by submitting your proposal. This stage will take some time to research and construct the theme, but one principle to keep in mind is that COSCUP focuses on issues relevant to the open-source field, regardless of their performance or presentation format. Therefore, any ideas and achievements are welcome to be submitted through the call for proposals process by the program committee!
@@ -10,11 +19,7 @@ The Call for Proposals has been announced. You can refer to [this article](https
 
 :::
 
-<VPButton href="https://pretalx.coscup.org/coscup-2024/">Submit your proposals</VPButton>
-<VPButton href="https://volunteer.coscup.org/docs/en/about_coscup/how_to_participate/2024_cfp/">Tracks Introduction</VPButton>
-
-<!-- [](){ .md-button .md-button--primary }
-[](){ .md-button .md-button--primary } -->
+<Actions :actionsList="voteList" />
 
 ## Speaker Framework
 
