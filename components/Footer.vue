@@ -135,13 +135,20 @@ const hasSidebar = computed(() => {
 
 #footer.hasSidebar {
   width: auto;
-  margin-left: calc((100% - (var(--vp-layout-max-width) - 64px)) / 2 + var(--vp-sidebar-width) - 32px);
+  margin-left: var(--vp-sidebar-width);
 }
 
 @media (max-width: 960px) {
-  .footer {
+  #footer {
     margin-left: 0 !important;
-    width: 100% !important;
+    width: auto !important;
+  }
+}
+
+@media (min-width: 2560px) {
+  #footer.hasSidebar {
+    width: auto;
+    margin-left: calc((100% - (var(--vp-layout-max-width) - 64px)) / 2 + var(--vp-sidebar-width) - 32px);
   }
 }
 </style>
