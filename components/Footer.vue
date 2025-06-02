@@ -3,15 +3,17 @@ import { conference } from '#data/conference.js'
 import { useSidebar } from 'vitepress/theme'
 import { computed } from 'vue'
 
-const hasSidebar = computed(() => {
-  return useSidebar().hasSidebar
+const { hasSidebar: sidebarAvailable } = useSidebar()
+
+const checkSidebar = computed(() => {
+  return !!sidebarAvailable.value
 })
 </script>
 
 <template>
   <footer
     id="footer"
-    :class="{ hasSidebar: hasSidebar.value }"
+    :class="{ hasSidebar: checkSidebar }"
   >
     <section class="title">
       <h1>COSCUP x RubyConf Taiwan 2025</h1>
