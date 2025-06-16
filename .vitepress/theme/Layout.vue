@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import Banner from '#components/Banner.vue'
-import { inBrowser, useData } from 'vitepress'
+import mediumZoom from 'medium-zoom'
+import { inBrowser, useData, useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import { watchEffect } from 'vue'
+import { nextTick, onMounted, watch, watchEffect } from 'vue'
 
 const { lang } = useData()
 watchEffect(() => {
@@ -10,6 +11,21 @@ watchEffect(() => {
     document.cookie = `lang=${lang.value};path=/`
   }
 })
+
+const route = useRoute()
+
+function initZoom() {
+  mediumZoom('.main img', { background: 'var(--vp-c-bg)' })
+}
+
+onMounted(() => {
+  initZoom()
+})
+
+watch(
+  () => route.path,
+  () => nextTick(() => initZoom()),
+)
 </script>
 
 <template>
