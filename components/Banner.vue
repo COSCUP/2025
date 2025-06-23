@@ -22,17 +22,38 @@ import banner from '#assets/images/banner.png'
   .banner > .mobile {
     display: none;
   }
+
+  .banner {
+    max-width: 1152px;
+  }
+
+  .banner img {
+    border-radius: 12px;
+  }
+
+  .main .actions {
+    align-items: center;
+    gap: 12px;
+  }
 }
 
 @media screen and (max-width: 512px) {
   .banner > :not(.mobile) {
     display: none;
   }
+
+  .banner {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .banner .mobile {
+    border-radius: 6px;
+  }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1024px) {
   .banner {
-    width: 1920px;
     margin: 0 auto;
   }
 }

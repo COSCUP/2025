@@ -43,15 +43,19 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
+/* Load Asap and Noto Sans Font */
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
-  --vp-c-default-soft: var(--vp-c-gray-soft);
+  --vp-c-default-soft: #ffd3ef80;
 
-  --vp-c-brand-1: var(--vp-c-indigo-1);
-  --vp-c-brand-2: var(--vp-c-indigo-2);
-  --vp-c-brand-3: var(--vp-c-indigo-3);
+  --vp-c-brand-1: #7f73fe;
+  --vp-c-brand-2: #675aea;
+  --vp-c-brand-3: #7f73fe;
   --vp-c-brand-soft: var(--vp-c-indigo-soft);
 
   --vp-c-tip-1: var(--vp-c-brand-1);
@@ -68,6 +72,8 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
+
+  --vp-c-bg-soft: #ffd3ef33;
 }
 
 /**
@@ -139,10 +145,70 @@
   top: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + var(--vp-doc-top-height, 0px) + 48px) !important;
 }
 
+/**
+ * for venue page
+ *-------------------------------------------------------------------------- */
 .medium-zoom-overlay {
   z-index: 30;
 }
 
 .medium-zoom-image {
   z-index: 9999 !important;
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.title span {
+  color: var(--vp-c-brand-3);
+  font-family: 'Asap', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.VPFeature:hover {
+  background-color: #ffd3ef66;
+}
+
+.item .VPFeature.link:hover {
+  border-color: #ffd3ef;
+}
+
+.text-brand {
+  color: var(--vp-c-brand-3);
+}
+
+.VPHomeHero.VPHero {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 513px) {
+  .VPHomeHero .main .actions {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 513px) {
+  .VPHomeHero .main .actions {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    column-gap: 20px;
+  }
+}
+
+/**
+ * Component: VPDoc
+ * -------------------------------------------------------------------------- */
+
+.VPDoc {
+  background: transparent !important;
 }

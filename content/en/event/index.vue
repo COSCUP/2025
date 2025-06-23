@@ -43,28 +43,30 @@ async function addToCalendar(type: CalendarType) {
       <p class="custom-block-title">
         <IconPhCalendarDots /> Date
       </p>
-      <h2>{{ start }} – {{ end }}</h2>
+      <h2 class="text-brand">
+        {{ start }} – {{ end }}
+      </h2>
       <div class="actions">
         <VPButton
-          theme="alt"
+          theme="brand"
           @click="addToCalendar('google')"
         >
           <IconPhGoogleLogo /> Google Calendar
         </VPButton>
         <VPButton
-          theme="alt"
+          theme="brand"
           @click="addToCalendar('outlookMobile')"
         >
           <IconPhMicrosoftOutlookLogo /> Outlook
         </VPButton>
         <VPButton
-          theme="alt"
+          theme="brand"
           @click="addToCalendar('yahoo')"
         >
           <IconPhExclamationMark /> Yahoo
         </VPButton>
         <VPButton
-          theme="alt"
+          theme="brand"
           @click="addToCalendar('ics')"
         >
           <IconPhCalendarPlus /> ICS
@@ -78,28 +80,30 @@ async function addToCalendar(type: CalendarType) {
       <p class="custom-block-title">
         <IconPhMapPin /> Location
       </p>
-      <h2>National Taiwan University of Science and Technology</h2>
+      <h2 class="text-brand">
+        National Taiwan University of Science and Technology
+      </h2>
       <p>{{ venueAddress }}<CopyButton :source="venueAddress" /></p>
       <LeafletMap class="map" />
       <div class="actions">
         <VPButton
           href="https://www.openstreetmap.org/relation/5355856"
           target="_blank"
-          theme="alt"
+          theme="brand"
         >
           <IconPhMagnifyingGlass /> OpenStreetMap
         </VPButton>
         <VPButton
           href="https://www.google.com/maps/search/?api=1&query=國立臺灣科技大學&query_place_id=ChIJrcDEdiGqQjQRVfQp7kRe25A"
           target="_blank"
-          theme="alt"
+          theme="brand"
         >
           <IconPhGoogleLogo /> Google Maps
         </VPButton>
         <VPButton
           href="https://maps.apple.com/place?auid=1091116063745527859"
           target="_blank"
-          theme="alt"
+          theme="brand"
         >
           <IconPhAppleLogo /> Apple Maps
         </VPButton>

@@ -8,6 +8,7 @@ export const en = defineConfig({
       { text: 'Event', link: '/en/event' },
       { text: 'About', link: '/en/about' },
       { text: 'venue', link: '/en/venue' },
+      { text: 'Staff', link: '/en/staff' },
     ],
     sidebar: {},
     socialLinks: [

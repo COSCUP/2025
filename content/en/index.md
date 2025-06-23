@@ -3,9 +3,6 @@
 layout: home
 
 hero:
-  name: COSCUP x RubyConf Taiwan 2025
-  text: 社群大拜拜
-  tagline: Conference for Open Source Coders, Users & Promoters
   actions:
     - theme: brand
       text: Call for Proposal
@@ -19,9 +16,6 @@ hero:
     - theme: brand
       text: Volunteer Recruitment
       link: https://volunteer.coscup.org/
-    - theme: alt
-      text: Aug 9 – Aug 10
-      link: /en/event
 features:
   - title: Sponsorship Program
     icon: 🤝
