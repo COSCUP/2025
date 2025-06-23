@@ -38,8 +38,7 @@
     "eslint": "9.28.0",
     "eslint-plugin-format": "1.0.1",
     "husky": "9.1.7",
-    "lint-staged": "16.0.0",
-    "medium-zoom": "^1.1.0",
+    "lint-staged": "16.1.0",
     "typescript": "5.8.3",
     "vite": "5.4.19",
     "vue-tsc": "2.1.4"

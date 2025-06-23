@@ -145,17 +145,6 @@
   top: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + var(--vp-doc-top-height, 0px) + 48px) !important;
 }
 
-/**
- * for venue page
- *-------------------------------------------------------------------------- */
-.medium-zoom-overlay {
-  z-index: 30;
-}
-
-.medium-zoom-image {
-  z-index: 9999 !important;
-}
-
 body {
   font-family: 'Noto Sans', sans-serif;
 }
