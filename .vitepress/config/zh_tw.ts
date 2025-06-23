@@ -8,6 +8,7 @@ export const zh_tw = defineConfig({
       { text: '首頁', link: '/' },
       { text: '年會資訊', link: '/event' },
       { text: '關於我們', link: '/about' },
+      { text: '會場地圖', link: '/venue' },
       { text: '工作人員', link: '/staff' },
     ],
     sidebar: {},
