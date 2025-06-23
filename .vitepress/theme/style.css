@@ -154,6 +154,7 @@
 
 .medium-zoom-image {
   z-index: 9999 !important;
+}
 
 body {
   font-family: 'Noto Sans', sans-serif;
