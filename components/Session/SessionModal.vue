@@ -2,6 +2,7 @@
 import type { SubmissionResponse } from '#loaders/types.ts'
 import type { Locale } from './session-messages'
 import CTag from '#components/CTag.vue'
+import { generateColorPalette } from '#utils/color.ts'
 import { formatTimeRange } from '#utils/format-time.ts'
 import { markdownToHtml } from '#utils/markdown.ts'
 import { computed } from 'vue'
@@ -20,6 +21,13 @@ defineEmits<{
 const advertisement = computed(() => {
   // Only retrieve advertisement when the modal is open (session is available)
   return props.session ? getAdvertisement() : null
+})
+
+const dynamicPanelStyle = computed(() => {
+  if (!props.session?.track?.color) {
+    return {}
+  }
+  return generateColorPalette(props.session.track.color)
 })
 
 const sessionTime = computed(() => {
@@ -48,7 +56,10 @@ const collaborationUrl = null
       class="modal-panel"
       role="dialog"
     >
-      <article class="dialog-content">
+      <article
+        class="dialog-content"
+        :style="dynamicPanelStyle"
+      >
         <main class="content-col">
           <div class="dialog-header">
             <div class="header-spacer" />
@@ -106,10 +117,10 @@ const collaborationUrl = null
               </section>
 
               <section class="session-tags">
-                <CTag variant="secondary">
+                <CTag variant="default">
                   {{ session.language }}
                 </CTag>
-                <CTag variant="secondary">
+                <CTag variant="default">
                   {{ session.difficulty }}
                 </CTag>
               </section>
@@ -349,7 +360,7 @@ const collaborationUrl = null
   font-size: var(--text-2xl);
   line-height: 32px;
   font-weight: 600;
-  color: var(--color-primary-400);
+  color: var(--c-text);
   margin-bottom: 12px;
 }
 
@@ -396,7 +407,7 @@ const collaborationUrl = null
 
     > h2 {
       font-weight: 600;
-      color: var(--color-primary-400);
+      color: var(--c-text);
       margin-bottom: 10px;
     }
 

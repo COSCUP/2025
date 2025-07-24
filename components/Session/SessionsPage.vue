@@ -315,6 +315,7 @@ const openedSession = computed(() => {
                   :status="openedSession?.code === session.code ? 'active' : 'default'"
                   :tag-text="session.track?.name || messages[locale].mainTrack"
                   :title="session.title"
+                  :track-color="session.track?.color"
                   @bookmark="toggleBookmark(session.code)"
                 />
               </div>

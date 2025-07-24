@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { generateColorPalette } from '#utils/color.ts'
 import { formatTimeRange } from '#utils/format-time.ts'
 import { computed } from 'vue'
 import CTag from './CTag.vue'
@@ -14,6 +15,7 @@ interface Props {
   tagText?: string
   status?: 'default' | 'active' | 'disabled'
   heightFactor?: number
+  trackColor?: string
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -21,15 +23,20 @@ const props = withDefaults(defineProps<Props>(), {
   tagText: '主議程軌',
   status: 'default',
   heightFactor: 1,
+  trackColor: '#7f73fe', // fallback color
 })
 
 defineEmits<{
   (e: 'bookmark'): void
 }>()
 
-const tagVariant = computed(() => props.bookmarked ? 'active' : 'secondary')
 const cardStyle = computed(() => ({
   height: `${150 * props.heightFactor}px`,
+}))
+
+const dynamicCardStyle = computed(() => ({
+  ...cardStyle.value,
+  ...generateColorPalette(props.trackColor),
 }))
 </script>
 
@@ -40,7 +47,7 @@ const cardStyle = computed(() => ({
       $style[`card${props.status.charAt(0).toUpperCase() + props.status.slice(1)}`],
       props.bookmarked ? $style.cardBookmarked : '',
     ]"
-    :style="cardStyle"
+    :style="dynamicCardStyle"
   >
     <!-- Header with title, time and bookmark -->
     <div :class="$style.header">
@@ -62,7 +69,9 @@ const cardStyle = computed(() => ({
         :class="$style.bookmarkContainer"
         @click.prevent.stop="$emit('bookmark')"
       >
-        <Bookmark :bookmarked="props.bookmarked" />
+        <Bookmark
+          :bookmarked="props.bookmarked"
+        />
       </div>
     </div>
 
@@ -74,7 +83,7 @@ const cardStyle = computed(() => ({
     <!-- Tag -->
     <div :class="$style.tagContainer">
       <CTag
-        :variant="tagVariant"
+        :variant="props.bookmarked ? 'bookmarked' : 'default'"
       >
         {{ props.tagText }}
       </CTag>
@@ -84,7 +93,7 @@ const cardStyle = computed(() => ({
 
 <style module>
 .card {
-  background-color: #e5e3ff;
+  background-color: var(--c-bg);
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -95,16 +104,16 @@ const cardStyle = computed(() => ({
 }
 
 .cardDisabled {
-  background-color: rgba(229, 227, 255, 0.8);
-  border: 1px dashed #998ffe;
+  background-color: color-mix(in oklch, var(--c-bg) 80%, transparent 20%);
+  border: 1px dashed var(--c-border);
 }
 
 .cardDefault {
-  border: 1px solid #ccc7ff;
+  border: 1px solid var(--c-border);
 }
 
 .cardActive {
-  border: 2px solid #7f73fe;
+  border: 2px solid var(--c-active-border);
   box-shadow:
     0px 10px 15px -3px rgba(0, 0, 0, 0.1),
     0px 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -131,7 +140,7 @@ const cardStyle = computed(() => ({
 .title {
   font-family: 'PingFang TC', sans-serif;
   font-weight: 600;
-  color: #4c4598;
+  color: var(--c-text);
   line-height: 1.2;
   letter-spacing: 0.42px;
   overflow: hidden;
@@ -146,7 +155,7 @@ const cardStyle = computed(() => ({
 .time {
   font-family: 'PingFang TC', sans-serif;
   font-weight: 600;
-  color: #4c4598;
+  color: var(--c-text);
   opacity: 0.6;
   letter-spacing: 0.42px;
 }
@@ -159,7 +168,7 @@ const cardStyle = computed(() => ({
 .speaker {
   font-family: 'PingFang TC', sans-serif;
   font-weight: 400;
-  color: #4c4598;
+  color: var(--c-text);
   font-size: 0.8em;
 }
 
@@ -175,32 +184,32 @@ const cardStyle = computed(() => ({
 
 /* Bookmarked theme styles */
 .cardBookmarked {
-  background-color: #fce7f3;
+  background-color: var(--c-bm-bg);
 }
 
 .cardBookmarked.cardDefault {
-  border-color: #fccee8;
+  border-color: var(--c-bm-border);
 }
 
 .cardBookmarked.cardActive {
-  background-color: #fdf2f8;
-  border-color: #fb64b6;
+  background-color: var(--c-bm-bg);
+  border-color: var(--c-bm-active-border);
 }
 
 .cardBookmarked.cardDisabled {
-  background-color: #fdf2f8;
-  border-color: #fda5d5;
+  background-color: color-mix(in oklch, var(--c-bm-bg) 80%, transparent 20%);
+  border: 1px dashed var(--c-bm-border);
 }
 
 .titleBookmarked {
-  color: #e60076;
+  color: var(--c-bm-text);
 }
 
 .timeBookmarked {
-  color: #e60076;
+  color: var(--c-bm-text);
 }
 
 .speakerBookmarked {
-  color: #e60076;
+  color: var(--c-bm-text);
 }
 </style>

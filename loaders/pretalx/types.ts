@@ -83,10 +83,12 @@ export interface Track {
   id: number
   name?: MultiLingualString
   description?: OptionalMultiLingualString
+  color: string
 }
 
 export interface LocalizedTrack {
   id: number
   name?: string
   description?: string
+  color: string
 }

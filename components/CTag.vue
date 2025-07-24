@@ -1,16 +1,44 @@
 <script setup lang="ts">
+import { computed } from 'vue'
+
 interface Props {
-  variant?: 'primary' | 'secondary' | 'active'
+  variant?: 'default' | 'bookmarked' | 'primary' | 'secondary'
 }
 
-withDefaults(defineProps<Props>(), {
-  variant: 'primary',
+const props = withDefaults(defineProps<Props>(), {
+  variant: 'default',
+})
+
+const tagStyle = computed(() => {
+  switch (props.variant) {
+    case 'bookmarked':
+      return {
+        backgroundColor: 'var(--c-bm-tag-bg)',
+        color: 'var(--c-bm-tag-text)',
+      }
+    case 'primary':
+      return {
+        backgroundColor: 'var(--c-tag-bg)',
+        color: 'var(--c-tag-text)',
+      }
+    case 'secondary':
+      return {
+        backgroundColor: 'var(--c-tag-bg)',
+        color: 'var(--c-tag-text)',
+      }
+    default:
+      return {
+        backgroundColor: 'var(--c-tag-bg)',
+        color: 'var(--c-tag-text)',
+      }
+  }
 })
 </script>
 
 <template>
   <span
-    :class="[$style.tag, $style[variant]]"
+    :class="$style.tag"
+    :style="tagStyle"
   >
     <slot />
   </span>
@@ -29,20 +57,5 @@ withDefaults(defineProps<Props>(), {
   width: min-content;
   max-width: 100%;
   display: block;
-}
-
-.primary {
-  background-color: var(--color-primary-400);
-  color: var(--color-white);
-}
-
-.secondary {
-  background-color: var(--color-primary-100);
-  color: var(--color-primary-600);
-}
-
-.active {
-  background-color: var(--color-pink-200);
-  color: var(--color-pink-700);
 }
 </style>

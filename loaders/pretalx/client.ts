@@ -132,6 +132,7 @@ export class PretalxApiClient {
       id: track.id,
       name: formatMultiLingualString(track.name),
       description: track.description ? formatMultiLingualString(track.description) : undefined,
+      color: track.color,
     } satisfies Track))
   }
 
