@@ -31,6 +31,10 @@ const sessionTime = computed(() => {
   return formatTimeRange(startDateString, endDateString, true)
 })
 
+const isPrimeSession = computed(() => {
+  return props.session?.title.includes('[Prime Session]')
+})
+
 const collaborationUrl = null
 </script>
 
@@ -115,6 +119,12 @@ const collaborationUrl = null
               </section>
 
               <section class="session-tags">
+                <CTag
+                  v-if="isPrimeSession"
+                  variant="primary"
+                >
+                  Prime Session
+                </CTag>
                 <CTag variant="primary">
                   {{ session.track.name }}
                 </CTag>
