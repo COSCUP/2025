@@ -68,7 +68,7 @@ function updateSelectedDate(date: 'start' | 'end') {
 // Generate time slots from 8AM to 6PM
 const timeSlots = computed(() => {
   const slots = []
-  for (let hour = START_HOUR; hour <= END_HOUR; hour++) {
+  for (let hour = START_HOUR; hour < END_HOUR; hour++) {
     const displayHour = hour <= 12 ? hour : hour - 12
     const period = hour < 12 ? 'AM' : 'PM'
     const displayTime = hour === 12 ? '12PM' : `${displayHour}${period}`
