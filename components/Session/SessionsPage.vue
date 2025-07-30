@@ -5,6 +5,7 @@ import type SessionModal from './SessionModal.vue'
 import CCard from '#/components/CCard.vue'
 import CIconButton from '#/components/CIconButton.vue'
 import CMenuBar from '#/components/CMenuBar.vue'
+import ScrollDrag from '#/components/ScrollDrag.vue'
 import { conference } from '#data/conference'
 import { END_HOUR, SessionScheduleLayout, START_HOUR, TIME_SLOT_HEIGHT } from '#utils/session-layout.ts'
 import { validateValue } from '#utils/validate-value.ts'
@@ -239,7 +240,7 @@ const openedSession = computed(() => {
     </div>
 
     <!-- Schedule Container -->
-    <div
+    <ScrollDrag
       ref="scheduleContainerRef"
       class="schedule-container"
     >
@@ -329,7 +330,7 @@ const openedSession = computed(() => {
         ref="rightFadeRef"
         class="scroll-right-fade"
       />
-    </div>
+    </ScrollDrag>
 
     <SessionDateTab
       v-if="!isDesktop"
@@ -350,7 +351,7 @@ const openedSession = computed(() => {
   width: 100%;
   min-width: 100%;
   padding: 18px 32px;
-  height: calc(100vh - var(--vp-nav-height));
+  /* height: calc(100vh - var(--vp-nav-height)); */
 }
 
 .toolbar {
