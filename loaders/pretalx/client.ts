@@ -228,7 +228,7 @@ export class PretalxApiClient {
 
       const localizedLanguage = getLocalizedValue(
         generalizedLanguage,
-        languageOther,
+        generalizedLanguage === 'others' ? languageOther : generalizedLanguage,
         tagTranslations,
         { 'zh-tw': '其他', 'en': 'Others' },
       )
