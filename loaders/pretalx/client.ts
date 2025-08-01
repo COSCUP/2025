@@ -5,6 +5,8 @@ import { createClient } from './oapi/client'
 import { coscupSubmissionsQuestionIdMap, difficultyGeneralizeMap, languageGeneralizeMap, tagTranslations } from './pretalx-types'
 import { formatMultiLingualString, generateGravatarUrl, getAnswer } from './utils'
 
+const PAGE_SIZE = 50
+
 interface PaginatedResponse<T> {
   count: number
   next: string | null
@@ -44,6 +46,14 @@ export class PretalxApiClient {
       const response = await this.#client.get<PaginatedResponse<T>>({
         url: next,
       })
+      if (response.response.status === 428 || response.response.status === 429) {
+        // 428 Precondition Required; 429 Too Many Requests
+        // It means the cache is not ready. We need to wait for 1 second and try again.
+        console.warn(`Pretalx API is not ready. Waiting for 1 second...`)
+        await new Promise((resolve) => setTimeout(resolve, 1000))
+        continue
+      }
+
       if (!response.data) {
         throw new BadServerSideDataException(`No data found for this URL: ${next}`)
       }
@@ -67,7 +77,7 @@ export class PretalxApiClient {
         event: this.event,
       },
       query: {
-        limit: 100,
+        limit: PAGE_SIZE,
         offset: 0,
       },
     })
@@ -94,7 +104,7 @@ export class PretalxApiClient {
         event: this.event,
       },
       query: {
-        page_size: 25,
+        page_size: PAGE_SIZE,
         page: 1,
       },
     })
@@ -121,7 +131,7 @@ export class PretalxApiClient {
         event: this.event,
       },
       query: {
-        page_size: 25,
+        page_size: PAGE_SIZE,
         page: 1,
       },
     })
@@ -142,7 +152,7 @@ export class PretalxApiClient {
         event: this.event,
       },
       query: {
-        page_size: 25,
+        page_size: PAGE_SIZE,
         page: 1,
       },
     })
@@ -166,7 +176,7 @@ export class PretalxApiClient {
       query: {
         state: ['confirmed'],
         expand: ['answers', 'slots'],
-        page_size: 25,
+        page_size: PAGE_SIZE,
         page: 1,
         submission_type: type,
       },
