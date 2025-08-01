@@ -29,7 +29,9 @@ async function getDriveImageBase64(shareUrl: string): Promise<string> {
 
   const fileIdMatch = shareUrl.match(/(?:\/d\/|id=)([^/?]+)/)
   const fileId = fileIdMatch ? fileIdMatch[1] : null
-  const directUrl = `https://drive.google.com/uc?export=view&id=${fileId}`
+
+  // Origin: https://drive.usercontent.google.com
+  const directUrl = `https://coscup-2025-drive-cache.b-cdn.net/download?id=${fileId}&export=view`
   const response = await fetch(directUrl)
 
   if (!response.ok) {

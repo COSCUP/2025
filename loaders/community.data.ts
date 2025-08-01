@@ -59,7 +59,8 @@ async function getDriveImage(imageUrl: string): Promise<string> {
   const getImageID = imageUrl.match(/\/d\/([^/]+)\//)
   const imageID = getImageID ? getImageID[1] : null
 
-  return `https://drive.google.com/thumbnail?id=${imageID}`
+  // Origin: https://drive.usercontent.google.com
+  return `https://coscup-2025-drive-cache.b-cdn.net/download?id=${imageID}&export=view`
 }
 
 // 取得 Google Sheets 資料
