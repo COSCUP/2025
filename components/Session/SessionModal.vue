@@ -6,6 +6,7 @@ import { formatTimeRange } from '#utils/format-time.ts'
 import { markdownToHtml } from '#utils/markdown.ts'
 import { computedAsync } from '@vueuse/core'
 import { computed } from 'vue'
+import { isPrimeSession } from './utils'
 
 const props = defineProps<{
   session: SubmissionResponse | null
@@ -29,10 +30,6 @@ const sessionTime = computed(() => {
   if (!startDateString || !endDateString) return props.messages.unknown
 
   return formatTimeRange(startDateString, endDateString, true)
-})
-
-const isPrimeSession = computed(() => {
-  return props.session?.title.includes('[Prime Session]')
 })
 
 const collaborationUrl = null
@@ -120,7 +117,7 @@ const collaborationUrl = null
 
               <section class="session-tags">
                 <CTag
-                  v-if="isPrimeSession"
+                  v-if="isPrimeSession(session)"
                   variant="primary"
                 >
                   Prime Session

@@ -13,19 +13,27 @@ interface Props {
   bookmarked?: boolean
   tagText?: string
   status?: 'default' | 'active' | 'disabled'
+  isPrime?: boolean
 }
 
 const props = withDefaults(defineProps<Props>(), {
   bookmarked: false,
   tagText: '主議程軌',
   status: 'default',
+  isPrime: false,
 })
 
 defineEmits<{
   (e: 'bookmark'): void
 }>()
 
-const tagVariant = computed(() => props.bookmarked ? 'active' : 'secondary')
+const tagVariant = computed(() => {
+  if (props.isPrime) {
+    return props.bookmarked ? 'primeActive' : 'prime'
+  }
+
+  return props.bookmarked ? 'active' : 'secondary'
+})
 </script>
 
 <template>
@@ -33,6 +41,7 @@ const tagVariant = computed(() => props.bookmarked ? 'active' : 'secondary')
     :class="[
       $style.card,
       $style[`card${props.status.charAt(0).toUpperCase() + props.status.slice(1)}`],
+      props.isPrime ? $style.cardPrime : '',
       props.bookmarked ? $style.cardBookmarked : '',
     ]"
   >
@@ -99,6 +108,15 @@ const tagVariant = computed(() => props.bookmarked ? 'active' : 'secondary')
 
 .cardActive {
   border: 2px solid #7f73fe;
+  box-shadow:
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.cardPrime {
+  border: 2px solid #ffd700;
+  outline: 1px solid #ccc7ff;
+  padding: 12px 6px 12px 8px;
   box-shadow:
     0px 10px 15px -3px rgba(0, 0, 0, 0.1),
     0px 4px 6px -2px rgba(0, 0, 0, 0.05);

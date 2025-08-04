@@ -1,6 +1,6 @@
 <script setup lang="ts">
 interface Props {
-  variant?: 'primary' | 'secondary' | 'active'
+  variant?: 'primary' | 'secondary' | 'active' | 'prime' | 'primeActive'
 }
 
 withDefaults(defineProps<Props>(), {
@@ -44,5 +44,17 @@ withDefaults(defineProps<Props>(), {
 .active {
   background-color: var(--color-pink-200);
   color: var(--color-pink-700);
+}
+
+.prime {
+  background-color: var(--color-yellow-300);
+  color: var(--color-yellow-800);
+  outline: 0.5px solid var(--color-yellow-400);
+}
+
+.primeActive {
+  background-color: var(--color-yellow-200);
+  color: var(--color-yellow-700);
+  outline: 0.5px solid var(--color-yellow-400);
 }
 </style>

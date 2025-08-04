@@ -11,6 +11,7 @@ import { breakpointsTailwind, useBreakpoints, useLocalStorage, useSessionStorage
 import { useRouter } from 'vitepress'
 import { computed, defineAsyncComponent, h, nextTick, onMounted, ref } from 'vue'
 import SessionDateTab from './SessionDateTab.vue'
+import { isPrimeSession } from './utils.ts'
 
 const props = defineProps<{
   rooms: { id: number, name: string }[]
@@ -385,6 +386,7 @@ onMounted(() => {
                   <CCard
                     :bookmarked="bookmarkedSessions.has(session.code)"
                     :end-at="session.end"
+                    :is-prime="isPrimeSession(session)"
                     :speaker="session.speakers?.map(s => s.name).join(', ') || 'TBD'"
                     :start-at="session.start"
                     :status="openedSession?.code === session.code ? 'active' : 'default'"
