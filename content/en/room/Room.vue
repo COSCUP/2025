@@ -199,9 +199,9 @@ function getStatusText(room) {
       <div class="header">
         Track
       </div>
-      <div class="header">
+      <!-- <div class="header">
         Status
-      </div>
+      </div> -->
       <div class="header">
         Session
       </div>
@@ -220,12 +220,12 @@ function getStatusText(room) {
         <div class="cell">
           {{ session.type ? session_types[session.type].en : session.type }}
         </div>
-        <div
+        <!-- <div
           class="cell"
           :style="{ 'background-color': `${getColor(session.course, crowd[session.room])}` }"
         >
           {{ getStatusText(rooms[session.room].en) }}
-        </div>
+        </div> -->
         <div class="cell session-room">
           <span
             v-if="session.course === null"
@@ -249,7 +249,7 @@ function getStatusText(room) {
 <style scoped>
 .grid-table {
   display: grid;
-  grid-template-columns: 6em 20% 6em auto;
+  grid-template-columns: 6em 20% auto;
   border-collapse: collapse;
   overflow-wrap: break-word;
 }
