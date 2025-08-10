@@ -22,7 +22,8 @@ export type MessageKey =
   'bookmarkedSessionsRestoredButton' |
   'bookmarkedSessionsCopied' |
   'bookmarkedSessionsCopiedDescription' |
-  'bookmarkedSessionsCopiedFailed'
+  'bookmarkedSessionsCopiedFailed' |
+  'close'
 
 export const enMessages: Record<MessageKey, string> = {
   time: 'Time',
@@ -49,6 +50,7 @@ export const enMessages: Record<MessageKey, string> = {
   bookmarkedSessionsCopied: 'Successfully copied the share URL to your clipboard',
   bookmarkedSessionsCopiedDescription: 'This URL points to your current bookmarked sessions. Other users can use this URL to restore the same bookmarked sessions.',
   bookmarkedSessionsCopiedFailed: 'Failed to copy the share URL to your clipboard',
+  close: 'Close',
 }
 
 export const zhTwMessages: Record<MessageKey, string> = {
@@ -76,4 +78,5 @@ export const zhTwMessages: Record<MessageKey, string> = {
   bookmarkedSessionsCopied: '已將收藏的議程連結複製至剪貼簿',
   bookmarkedSessionsCopiedDescription: '這個連結指向您目前的收藏議程。其他使用者可以使用此連結還原相同的收藏議程。',
   bookmarkedSessionsCopiedFailed: '無法將收藏的議程分享至剪貼簿',
+  close: '關閉',
 }
