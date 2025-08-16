@@ -37,7 +37,7 @@
     "vue-sonner": "2.0.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "4.19.0",
+    "@antfu/eslint-config": "5.2.1",
     "@hey-api/openapi-ts": "0.77.0",
     "@types/leaflet": "1.9.20",
     "@types/markdown-it": "14.1.2",
