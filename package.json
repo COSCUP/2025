@@ -42,7 +42,7 @@
     "@types/leaflet": "1.9.20",
     "@types/markdown-it": "14.1.2",
     "@types/node": "22.18.0",
-    "env-cmd": "10.1.0",
+    "env-cmd": "11.0.0",
     "eslint": "9.34.0",
     "eslint-plugin-format": "1.0.1",
     "husky": "9.1.7",
