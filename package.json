@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "packageManager": "pnpm@10.15.1",
+  "packageManager": "pnpm@10.16.1",
   "imports": {
     "#*": "./*"
   },
@@ -30,18 +30,18 @@
     "osmtogeojson": "3.0.0-beta.5",
     "reka-ui": "2.5.0",
     "swiper": "11.2.10",
-    "unplugin-icons": "22.2.0",
+    "unplugin-icons": "22.3.0",
     "unplugin-vue-components": "29.0.0",
     "vitepress": "2.0.0-alpha.12",
     "vue": "3.5.21",
     "vue-sonner": "2.0.8"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "5.2.2",
+    "@antfu/eslint-config": "5.3.0",
     "@hey-api/openapi-ts": "0.77.0",
     "@types/leaflet": "1.9.20",
     "@types/markdown-it": "14.1.2",
-    "@types/node": "22.18.1",
+    "@types/node": "22.18.3",
     "env-cmd": "11.0.0",
     "eslint": "9.35.0",
     "eslint-plugin-format": "1.0.1",
@@ -49,7 +49,7 @@
     "lint-staged": "16.1.6",
     "typescript": "5.9.2",
     "vite": "7.1.5",
-    "vue-tsc": "3.0.6"
+    "vue-tsc": "3.0.7"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
