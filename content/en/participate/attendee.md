@@ -121,18 +121,17 @@ In addition to our sessions, COSCUP also provides services to help participants 
 
 - [Pre-Party](https://volunteer.coscup.org/docs/about_coscup/eve_gathering/overview/): Join us on **Friday, August 8 at 18:15 PM** at [Hua Shan Ding Bistro](https://www.openstreetmap.org/node/3810288230) for drinks and chats about open source. Admission is free. Drink passes are also available for purchase to help us cover the venue cost.
 - [Pause Room](https://volunteer.coscup.org/docs/about_coscup/health_market/overview/): Located in room TR 413-2, this cozy hideout is your go-to for relaxation. It includes our massage station, childcare service, and mats where you can rest freely.
+- Massage Station: Relax and relieve your accumulated fatigue at the massage station~ On-site donations to support the Eden Foundation are welcome.
 
-  - Massage Station: Relax and relieve your accumulated fatigue at the massage station~ On-site donations to support the Eden Foundation are welcome.
+  Hours: August 9–10, 10:00–16:00
 
-    Hours: August 9–10, 10:00–16:00
+- Childcare Service: Let professional caregivers take care of your little ones so you can focus on the event. Happy kids, happy adults! (Childcare services are available in Mandarin only.)
 
-  - Childcare Service: Let professional caregivers take care of your little ones so you can focus on the event. Happy kids, happy adults! (Childcare services are available in Mandarin only.)
+  Hours: August 9, 09:00–17:00 & August 10, 09:00–15:30
 
-    Hours: August 9, 09:00–17:00 & August 10, 09:00–15:30
+- Nitro Coffee Booth: Grab a cup of coffee at the TR 1F booth and fuel up for the day’s sessions!
 
-  - Nitro Coffee Booth: Grab a cup of coffee at the TR 1F booth and fuel up for the day’s sessions!
-
-    Hours: August 9, 09:00–16:30 & August 10, 09:00–15:30
+  Hours: August 9, 09:00–16:30 & August 10, 09:00–15:30
 
 - [Mindfulness Workshop](https://coscup.org/2025/en/sessions/MK8KSX): Cultivate inner peace and self-awareness through mindful rituals.
 - For more information on inclusive services and emergency support, please refer to the [Inclusive Participation Guide](https://docs.google.com/document/d/e/2PACX-1vQ41wfyNkcv9yEVAN4MrgooT124_ZE9Xdu03vn6NRqQ75RMvBHIOI4uSVXLobEebTl98pYzC_ZNe4EL/pub).
