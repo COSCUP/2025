@@ -5,6 +5,7 @@ import hackmd from './hackmd'
 import { createClient } from './oapi/client'
 import { coscupSubmissionsQuestionIdMap, difficultyGeneralizeMap, languageGeneralizeMap, tagTranslations } from './pretalx-types'
 import { formatMultiLingualString, generateGravatarUrl, getAnswer } from './utils'
+import ytLinks from './ytList.json'
 
 const PAGE_SIZE = 50
 
@@ -284,6 +285,7 @@ export class PretalxApiClient {
           'zh-tw': submission.title,
           'en': enTitle ?? submission.title,
         },
+        video: (ytLinks as Record<string, string>)[submission.code] ?? null,
         abstract: {
           'zh-tw': submission.abstract ?? undefined,
           'en': enDesc ?? submission.abstract ?? undefined,

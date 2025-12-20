@@ -187,6 +187,19 @@ const sessionTime = computed(() => {
                 </template>
               </section>
             </section>
+            <section>
+              <iframe
+                v-if="session.video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                frameborder="0"
+                height="315"
+                referrerpolicy="strict-origin-when-cross-origin"
+                :src="`https://www.youtube.com/embed/${session.video}`"
+                title="YouTube video player"
+                width="520"
+              />
+            </section>
           </div>
         </main>
         <ClientOnly>

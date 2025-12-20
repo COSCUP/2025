@@ -48,6 +48,7 @@ export interface LocalizedSessionType {
 export interface Submission {
   code: string
   title: MultiLingualString
+  video: string | null
   abstract: OptionalMultiLingualString
   speakers: string[]
   track: number
@@ -65,6 +66,7 @@ export interface Submission {
 export interface LocalizedSubmission {
   code: string
   title: string
+  video: string | null
   abstract?: string
   speakers: string[]
   track: number
