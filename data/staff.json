@@ -1,0 +1,768 @@
+{
+  "staffData": [
+    {
+      "tid": "1",
+      "group": {
+        "zh_tw": "總召組",
+        "en": "General Coordinator"
+      },
+      "members": [
+        {
+          "name": "雁雁",
+          "email_hash": "d2a390382a4d3d5cf17740ffbd914942"
+        },
+        {
+          "name": "IU",
+          "email_hash": "e1ee302642920316eb9e8cc971e3b615"
+        },
+        {
+          "name": "nfsnfs",
+          "email_hash": "8ba17c693edf1f29ae77d64443ac242e"
+        },
+        {
+          "name": "Singing",
+          "email_hash": "80bba454a8b37dba920e8787f78b3b81"
+        },
+        {
+          "name": "Denny Huang",
+          "email_hash": "9c08215f31eb6005a25be6521bf47b0a"
+        }
+      ]
+    },
+    {
+      "tid": "2",
+      "group": {
+        "zh_tw": "行政組",
+        "en": "Secretary"
+      },
+      "members": [
+        {
+          "name": "Leaf",
+          "email_hash": "602818418612b2ea7b2ea810cc60a900"
+        },
+        {
+          "name": "Sheng",
+          "email_hash": "b51318e1ac55a190b761facd6d07af58"
+        },
+        {
+          "name": "TC",
+          "email_hash": "9ae8ff2c7e70c5a72b26898f6d2d066f"
+        },
+        {
+          "name": "鯉魚",
+          "email_hash": "9dba8889c4e16e88fe200c58af063eeb"
+        },
+        {
+          "name": "Peggy",
+          "email_hash": "4926b19b5def0d3979f403a9e23d5c68"
+        },
+        {
+          "name": "PENNYKEN",
+          "email_hash": "701dc45892ec3dae3bc468ed2886f698"
+        },
+        {
+          "name": "刺蝟",
+          "email_hash": "2e000424611db76caee3e72b379f77f8"
+        },
+        {
+          "name": "小耕",
+          "email_hash": "0cbc981c85761fdae0005bf21a133855"
+        },
+        {
+          "name": "Melanie",
+          "email_hash": "0530677df562deb4911028c0e8976391"
+        }
+      ]
+    },
+    {
+      "tid": "3",
+      "group": {
+        "zh_tw": "議程組",
+        "en": "Program Team"
+      },
+      "members": [
+        {
+          "name": "petertc",
+          "email_hash": "4de50721d989a564efb5bce3f6da7734"
+        },
+        {
+          "name": "Hannah Wang",
+          "email_hash": "aab0fdcad19de4b29581df54dc3055b9"
+        },
+        {
+          "name": "佳均",
+          "email_hash": "f62037b40ff3d7161d0a2e90b197ae99"
+        },
+        {
+          "name": "湯米 Tommy",
+          "email_hash": "e023e19feb59eeaf5334e5b0ee8074d0"
+        },
+        {
+          "name": "貓貓貓貓",
+          "email_hash": "594745d58ba16c327f481a8963cecc9b"
+        },
+        {
+          "name": "Lois（羅伊絲）",
+          "email_hash": "a2d6c17265cd4d9b683114b322101e15"
+        },
+        {
+          "name": "CCLin",
+          "email_hash": "87cd032250dbaa6940de8beb0b0e00da"
+        },
+        {
+          "name": "MAVINS",
+          "email_hash": "166c8e17b06d436ecebf712a717b6aa1"
+        },
+        {
+          "name": "Jeff Huang",
+          "email_hash": "d109e9a1b5c30340f3c6839447d772e2"
+        },
+        {
+          "name": "Eric",
+          "email_hash": "f316a36ca88a4d0060aaa00e0c7ca6b3"
+        },
+        {
+          "name": "仁美",
+          "email_hash": "27de1db8664cc7d52160e22813ad7242"
+        },
+        {
+          "name": "樂",
+          "email_hash": "def8940b226d874230a36ac1ce60165a"
+        },
+        {
+          "name": "Joy Shen",
+          "email_hash": "156abdc45fe533b28e1648f7e3a1d1e4"
+        },
+        {
+          "name": "Mac Taylor",
+          "email_hash": "c311314851cc3480302484624cbd21c9"
+        }
+      ]
+    },
+    {
+      "tid": "4",
+      "group": {
+        "zh_tw": "行銷組",
+        "en": "Marketing"
+      },
+      "members": [
+        {
+          "name": "泥馬",
+          "email_hash": "b324aa1e3ca219ebabbc97e1d7e3bee5"
+        },
+        {
+          "name": "皇甫",
+          "email_hash": "8736be8c51ac811dcb13b7297274a8fb"
+        },
+        {
+          "name": "一尾",
+          "email_hash": "6af652c8936a90ac9725493e5f571e07"
+        },
+        {
+          "name": "飄飄",
+          "email_hash": "55973dd99a6281df2e3901d5f3faf539"
+        },
+        {
+          "name": "77",
+          "email_hash": "a65580fddf03a5a487dbba8f16e7b7f7"
+        },
+        {
+          "name": "萊姆",
+          "email_hash": "e6548ad6de87fbfe755ac88dff6c4829"
+        },
+        {
+          "name": "EG",
+          "email_hash": "063a1af2534c41932f324f8bdea8d10d"
+        },
+        {
+          "name": "Debby",
+          "email_hash": "597a72bbf266ad9a4ba10e7f7f83e615"
+        },
+        {
+          "name": "球魚/Ballfish",
+          "email_hash": "86d3bee674f1962af04b0192f0c959f3"
+        },
+        {
+          "name": "諾諾",
+          "email_hash": "dcfbc856db3adb957a79aac3336b1161"
+        },
+        {
+          "name": "小白",
+          "email_hash": "5e2cedb5b847a7359f80c93f2642b5d3"
+        },
+        {
+          "name": "Straw",
+          "email_hash": "ab39b2f70dacc48e94bb19543f4c859f"
+        },
+        {
+          "name": "繁嵐",
+          "email_hash": "f46225edf97b66ca05c2cacc4bc19d9f"
+        },
+        {
+          "name": "Dawn",
+          "email_hash": "c83f9a2e6fc5a29819cff8495f560113"
+        }
+      ]
+    },
+    {
+      "tid": "5",
+      "group": {
+        "zh_tw": "贊助組",
+        "en": "Sponsor"
+      },
+      "members": [
+        {
+          "name": "Kevin Xue",
+          "email_hash": "411751eb36c6b67d7a46b6d46bc75734"
+        },
+        {
+          "name": "Vanessa Huang",
+          "email_hash": "eb8f886410cd993d2ee1523450fa54d0"
+        },
+        {
+          "name": "荔枝",
+          "email_hash": "fb8c8ce1ef46119da065a523dd6d2999"
+        },
+        {
+          "name": "Singing",
+          "email_hash": "80bba454a8b37dba920e8787f78b3b81"
+        }
+      ]
+    },
+    {
+      "tid": "6",
+      "group": {
+        "zh_tw": "資訊組",
+        "en": "IT"
+      },
+      "members": [
+        {
+          "name": "咪路",
+          "email_hash": "0d3eba022a4e0eda175441d9cf1e9061"
+        },
+        {
+          "name": "Riley",
+          "email_hash": "553851f9ef30f76cf0f4646b6d523b67"
+        },
+        {
+          "name": "Ash",
+          "email_hash": "613072d8ffbacbfc6f52528938341956"
+        },
+        {
+          "name": "Bessy",
+          "email_hash": "b63e86ec685d0058b46e0114d25fc6c0"
+        },
+        {
+          "name": "TC",
+          "email_hash": "9ae8ff2c7e70c5a72b26898f6d2d066f"
+        },
+        {
+          "name": "Yi-Jyun Pan",
+          "email_hash": "d44e6fe0e9df9488a953bcead8440c61"
+        },
+        {
+          "name": "失言",
+          "email_hash": "b0023e00379ba34a9899806388d9a123"
+        },
+        {
+          "name": "鱈魚",
+          "email_hash": "15ed768e82f1a3d8463eaf8d684bf6fa"
+        }
+      ]
+    },
+    {
+      "tid": "7",
+      "group": {
+        "zh_tw": "紀錄組",
+        "en": "Documentary"
+      },
+      "members": [
+        {
+          "name": "月太",
+          "email_hash": "4e9d08c3b268edcc82ccfa958eda5e66"
+        },
+        {
+          "name": "OnCloud",
+          "email_hash": "993e1e8732a1039c2d1649fe953d6b0e"
+        },
+        {
+          "name": "海哥",
+          "email_hash": "1f530103baa8c604412edda22c0d64eb"
+        },
+        {
+          "name": "Lulu",
+          "email_hash": "e389dbeaebdc1662a2b468584744bdec"
+        },
+        {
+          "name": "牟懋軒",
+          "email_hash": "fc9ed632a9a22b500e1d928850e09f4e"
+        },
+        {
+          "name": "Evan",
+          "email_hash": "5910c049d2e0a547adcd33913075ed89"
+        },
+        {
+          "name": "林橋毅",
+          "email_hash": "3b5c1e780a3ca15b76c59ac2f3a2109f"
+        },
+        {
+          "name": "黃翊唐",
+          "email_hash": "81c15c274372fec7bcef62edb0a7108a"
+        },
+        {
+          "name": "Joseph Sung",
+          "email_hash": "b1fb6510a34b66aad5db826ffa957cd1"
+        },
+        {
+          "name": "西歪街",
+          "email_hash": "78669e6ff00143de64d6a21cd6d8a1b0"
+        },
+        {
+          "name": "Lily",
+          "email_hash": "96e5d69b1925f84b9d06ca341120bf4b"
+        },
+        {
+          "name": "Weiting",
+          "email_hash": "b4fc1ca6cd7d6811456d3c8d165f59a3"
+        },
+        {
+          "name": "Bun_.",
+          "email_hash": "c8e74243b840025439968862a76ceb20"
+        },
+        {
+          "name": "小群",
+          "email_hash": "c87cbee0a4a96655bd7366b56be7a18a"
+        },
+        {
+          "name": "Rong",
+          "email_hash": "284313f3541e3f1cf248f9c06ed17368"
+        },
+        {
+          "name": "吳庭蓁",
+          "email_hash": "c9df38f158fe09b572bf34b1ef5944c5"
+        },
+        {
+          "name": "夏川",
+          "email_hash": "376310ad92121c795190d32dc9d180a8"
+        }
+      ]
+    },
+    {
+      "tid": "8",
+      "group": {
+        "zh_tw": "財務組",
+        "en": "Finance"
+      },
+      "members": [
+        {
+          "name": "Leaf",
+          "email_hash": "602818418612b2ea7b2ea810cc60a900"
+        },
+        {
+          "name": "Codeamon",
+          "email_hash": "b5858995547ab5e41d0ba24ef80cdebf"
+        },
+        {
+          "name": "咪路",
+          "email_hash": "0d3eba022a4e0eda175441d9cf1e9061"
+        },
+        {
+          "name": "皇甫",
+          "email_hash": "8736be8c51ac811dcb13b7297274a8fb"
+        },
+        {
+          "name": "Tim Chen (timchen119)",
+          "email_hash": "d1ddbc53cc4e98e86e44975796599636"
+        },
+        {
+          "name": "球魚/Ballfish",
+          "email_hash": "86d3bee674f1962af04b0192f0c959f3"
+        },
+        {
+          "name": "銳銳",
+          "email_hash": "63e8d77f1f3a7a34e252a9c30fff2aa2"
+        }
+      ]
+    },
+    {
+      "tid": "9",
+      "group": {
+        "zh_tw": "場務組",
+        "en": "Field"
+      },
+      "members": [
+        {
+          "name": "小知",
+          "email_hash": "a6b6898ed8d1c570e68b6629158f51fb"
+        },
+        {
+          "name": "Ting",
+          "email_hash": "c13b6225d1b494825f229edf8dbd2bb5"
+        },
+        {
+          "name": "小婕",
+          "email_hash": "2239772629220355486977364003cff3"
+        },
+        {
+          "name": "Pizza",
+          "email_hash": "3efe384827c557d7d05d8059dd2ec2af"
+        },
+        {
+          "name": "品妤",
+          "email_hash": "5fd6051aa1f0c1a786f9b5f2dfd20d71"
+        },
+        {
+          "name": "雪兒",
+          "email_hash": "6ec8b0a1014f56e4a7f96a55d543a0bc"
+        },
+        {
+          "name": "Tiffany",
+          "email_hash": "853c08aecbedf1d2e3255ec8ae6dbe4c"
+        },
+        {
+          "name": "Henry",
+          "email_hash": "8b91ca6108b73224bb1f56795a18677a"
+        },
+        {
+          "name": "家安",
+          "email_hash": "20706a2747cee27ec012b390ed2436a0"
+        },
+        {
+          "name": "邱鈺淋",
+          "email_hash": "78fd9a7368cca65b2ba492730a9a6b2e"
+        },
+        {
+          "name": "四季紅",
+          "email_hash": "5b558c8821a9a1ccc445f5232a102f99"
+        },
+        {
+          "name": "Alan Wu",
+          "email_hash": "60a027e0a6f2df952e75a3443aeb5c85"
+        },
+        {
+          "name": "吳東哲",
+          "email_hash": "50ac23c13e5b1dfe2cf289b896b341af"
+        },
+        {
+          "name": "家答",
+          "email_hash": "fd7f60e68311eea3de7c840fd1f53b0a"
+        },
+        {
+          "name": "家誠",
+          "email_hash": "cceb041a5bfc7381f37a5af65e50b69b"
+        },
+        {
+          "name": "康喔",
+          "email_hash": "018e4b6c4242d321d467d3294b30c240"
+        },
+        {
+          "name": "晶晶",
+          "email_hash": "d6b3f4fd35f78c60abd32bfe231f1d05"
+        },
+        {
+          "name": "陌云",
+          "email_hash": "f11b9dd4ad06ee6ec0926ec525a1aab0"
+        },
+        {
+          "name": "K. Wayne",
+          "email_hash": "e346bfdae3840bbfcd0f03c80c88cc41"
+        },
+        {
+          "name": "yyc",
+          "email_hash": "bea48bad98ebd06fc6ba92c7c583bff9"
+        },
+        {
+          "name": "小宇",
+          "email_hash": "38471e91ad7a78d3f3c5a822571ae59e"
+        },
+        {
+          "name": "吳冠霖",
+          "email_hash": "78f5b22459f745cd7e8d1c1c23b41dba"
+        },
+        {
+          "name": "242",
+          "email_hash": "3b9e95d4cef5ba31952228c0aa153e95"
+        },
+        {
+          "name": "Yuki",
+          "email_hash": "fbf80edc9ed4b30956a6532006dd8166"
+        },
+        {
+          "name": "海鷗",
+          "email_hash": "d7d915ce07dbf6a5968c6bdfa2b5f0e2"
+        },
+        {
+          "name": "Evelyn",
+          "email_hash": "68ed19f1ef3ccefef8293c7cf0ef3c74"
+        },
+        {
+          "name": "小豬",
+          "email_hash": "215ef59460097cb53df322496ffcb17e"
+        },
+        {
+          "name": "Bee",
+          "email_hash": "9a2dbbca75cfbc9ce571834546a453ee"
+        },
+        {
+          "name": "Atseng",
+          "email_hash": "12c5cd4ccc973fd97b1d7ea260c8cd71"
+        },
+        {
+          "name": "sangege",
+          "email_hash": "f6d0a62624d1d82d90ea3232e3663561"
+        },
+        {
+          "name": "Amanda",
+          "email_hash": "1f14cebdf292c2103fb7b96cfb5990b2"
+        },
+        {
+          "name": "dyt",
+          "email_hash": "5b0a9dcf06e7fd9fd44b7cfbe70971b7"
+        },
+        {
+          "name": "柒柒",
+          "email_hash": "316da172360bb856bfa41787b11e5a4e"
+        },
+        {
+          "name": "星評",
+          "email_hash": "6b39a9001a24a7e71cf182943a1b0f9d"
+        },
+        {
+          "name": "Mark",
+          "email_hash": "10a41f9c249da2020e741bbab58a6d79"
+        },
+        {
+          "name": "Dada",
+          "email_hash": "a56eebadbf8d47525b62a40a91331621"
+        },
+        {
+          "name": "鱈魚",
+          "email_hash": "15ed768e82f1a3d8463eaf8d684bf6fa"
+        },
+        {
+          "name": "松鼠",
+          "email_hash": "1879bdf2628b0d43d844ef2a39b8dd3a"
+        },
+        {
+          "name": "蓋蓋",
+          "email_hash": "4d0a2e7961d9ff36a2bb04c7036d84c2"
+        },
+        {
+          "name": "Betty許",
+          "email_hash": "ce8eda415aa34e25353a6569a8851503"
+        },
+        {
+          "name": "阿星",
+          "email_hash": "ae354d7d135524bf184f9e6dc0abb4d5"
+        },
+        {
+          "name": "葉修安",
+          "email_hash": "5460a446ff882a4c5fc6fe285a4abfea"
+        },
+        {
+          "name": "眼蛙",
+          "email_hash": "044158d7201649ef8558e5950f253618"
+        },
+        {
+          "name": "木魚",
+          "email_hash": "92527aaa548af285231b683380fcf723"
+        },
+        {
+          "name": "Sciuridae 松鼠",
+          "email_hash": "60ce6b00bae88e0ff15c9480a9ce92f5"
+        },
+        {
+          "name": "灰毛",
+          "email_hash": "e4acaa094688eeb8da7964c92886eb0e"
+        },
+        {
+          "name": "Wesley",
+          "email_hash": "01540bc1c21d1f9fc3789029fa17b59c"
+        },
+        {
+          "name": "布萊恩",
+          "email_hash": "6981e52addf03aaee1143cb480fa9a7d"
+        }
+      ]
+    },
+    {
+      "tid": "10",
+      "group": {
+        "zh_tw": "製播組",
+        "en": "Streaming"
+      },
+      "members": [
+        {
+          "name": "小弘",
+          "email_hash": "e7afb871d870a3e08ce9996498d308a9"
+        },
+        {
+          "name": "御痕",
+          "email_hash": "ffa64e21d87872b52a39187eef5d28eb"
+        },
+        {
+          "name": "郭郭",
+          "email_hash": "c136da2269f915eb4babaf44c6d30fea"
+        },
+        {
+          "name": "LaiRay",
+          "email_hash": "7a349ce701cf1c45ea526111e6b29d7d"
+        },
+        {
+          "name": "小松",
+          "email_hash": "713f2def3fec307948c66574b9057995"
+        },
+        {
+          "name": "Brian Jhan",
+          "email_hash": "67c6905618ca9fe291784f62467c62fd"
+        },
+        {
+          "name": "Mayboy",
+          "email_hash": "91e4f9924b62407e6a8cbc69f43d43df"
+        },
+        {
+          "name": "竺原",
+          "email_hash": "79bf1fd063a37be09ebc5a3560145cfd"
+        },
+        {
+          "name": "安得",
+          "email_hash": "ca8759e1bb6d8e5b01cfee84a776414a"
+        },
+        {
+          "name": "大麻",
+          "email_hash": "88822e74b594d33c8c4d0575e5d585c6"
+        },
+        {
+          "name": "橘色長條喵",
+          "email_hash": "9e5aa1c6c977843583d9b02fe77a2e03"
+        },
+        {
+          "name": "Hamster",
+          "email_hash": "01567616be21ba986fed8b57b5110178"
+        },
+        {
+          "name": "che",
+          "email_hash": "e6bcd97faa2a4330414ae7a3a3f1cad2"
+        },
+        {
+          "name": "諾諾",
+          "email_hash": "dcfbc856db3adb957a79aac3336b1161"
+        },
+        {
+          "name": "李仁瑋",
+          "email_hash": "c6be3d9c389d3ad2e3758f8fa26ac6c9"
+        },
+        {
+          "name": "鯨魚",
+          "email_hash": "b3a2778c0920b912be95c175101d3ac9"
+        },
+        {
+          "name": "羊羊",
+          "email_hash": "f79964ee5b3ea23dc3603affefbb2cd5"
+        },
+        {
+          "name": "Zai",
+          "email_hash": "3edbfa821271f3f0912460ce198b2d7e"
+        },
+        {
+          "name": "白晝",
+          "email_hash": "d0db07b9433bb28efb74db8e6b690a29"
+        },
+        {
+          "name": "白白",
+          "email_hash": "269a6c82bd6fc5573314850c52f0df69"
+        },
+        {
+          "name": "BC",
+          "email_hash": "e276c73ef49229c5858e1e00591859db"
+        },
+        {
+          "name": "631",
+          "email_hash": "8b58af8a41d1d051c74afe37cffc40dc"
+        },
+        {
+          "name": "宗墾",
+          "email_hash": "8c69adde688e43595de6d1991b95f6c0"
+        }
+      ]
+    },
+    {
+      "tid": "11",
+      "group": {
+        "zh_tw": "源力支援組",
+        "en": "Open source support"
+      },
+      "members": [
+        {
+          "name": "雁雁",
+          "email_hash": "d2a390382a4d3d5cf17740ffbd914942"
+        },
+        {
+          "name": "IU",
+          "email_hash": "e1ee302642920316eb9e8cc971e3b615"
+        },
+        {
+          "name": "theimpulson",
+          "email_hash": "72af8011f5853c0926142436b158006c"
+        },
+        {
+          "name": "Beauty",
+          "email_hash": "a43ecbc744ac926c30bee266350e0ff5"
+        },
+        {
+          "name": "Koti Vellanki",
+          "email_hash": "60836336f4ae8b2f8e2c099b7aecdc14"
+        },
+        {
+          "name": "Nadia Lovely",
+          "email_hash": "209eac1f25a4b23c7c11ae1fbb5b79d9"
+        },
+        {
+          "name": "nfsnfs",
+          "email_hash": "8ba17c693edf1f29ae77d64443ac242e"
+        },
+        {
+          "name": "Davy ヽ(✿ﾟ▽ﾟ)ノ",
+          "email_hash": "0a0c992bf4a6043088acedaa672d175f"
+        },
+        {
+          "name": "Shirley L.",
+          "email_hash": "c3fffb947e17ab0f66dbc7aa8df72ed3"
+        },
+        {
+          "name": "球魚/Ballfish",
+          "email_hash": "86d3bee674f1962af04b0192f0c959f3"
+        },
+        {
+          "name": "Peter Chen",
+          "email_hash": "7cf0de60047c4487185c4891401e7665"
+        },
+        {
+          "name": "Tanathorn",
+          "email_hash": "347d4187bae04f721fd3405df60878db"
+        },
+        {
+          "name": "Matthias Geisler",
+          "email_hash": "a7d935c4201c4b27efd753183032ee81"
+        },
+        {
+          "name": "Melanie",
+          "email_hash": "0530677df562deb4911028c0e8976391"
+        }
+      ]
+    },
+    {
+      "tid": "12",
+      "group": {
+        "zh_tw": "Ruby",
+        "en": ""
+      },
+      "members": [
+        {
+          "name": "Mu-Fan",
+          "email_hash": "c7c4962ce9539d003fd7f0f06539e9d3"
+        }
+      ]
+    }
+  ]
+}
