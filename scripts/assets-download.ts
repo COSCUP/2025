@@ -1,8 +1,9 @@
 /**
  * Pre-build asset pipeline: pulls every Google Drive image referenced by the
  * Sponsor / SponsorNews / Community sheets, compresses to WebP via sharp, and
- * writes the result to `public/assets/drive/{fileId}.webp`. The loaders then
- * point at those local paths instead of an external CDN.
+ * writes the result to `content/public/assets/drive/{fileId}.webp` (under
+ * VitePress's `srcDir`, served at `/${conference.year}/assets/drive/...`).
+ * The loaders then point at those local paths instead of an external CDN.
  *
  * Run with `pnpm assets:download` whenever the source sheets change. The
  * `.webp` outputs are committed to the repo so CI builds need no network.
@@ -125,9 +126,19 @@ async function runWithConcurrency<T>(
 }
 
 async function main(): Promise<void> {
-  if (!SHEET_ID || !API_KEY) {
+  const required = {
+    VITE_SHEET_ID: SHEET_ID,
+    VITE_API_KEY: API_KEY,
+    VITE_SPONSOR_SHEET_NAME: SPONSOR_SHEET_NAME,
+    VITE_SPONSOR_NEWS_SHEET_NAME: SPONSOR_NEWS_SHEET_NAME,
+    VITE_COMMUNITY_SHEET_NAME: COMMUNITY_SHEET_NAME,
+  }
+  const missing = Object.entries(required)
+    .filter(([, value]) => !value)
+    .map(([name]) => name)
+  if (missing.length > 0) {
     console.error(
-      'Missing VITE_SHEET_ID or VITE_API_KEY. Populate your .env first.',
+      `Missing required env var(s): ${missing.join(', ')}. Populate your .env first.`,
     )
     process.exit(1)
   }
