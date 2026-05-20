@@ -75,11 +75,10 @@ async function fetchSponsors(): Promise<Sponsor[]> {
         }), {} as Sponsor))
       .filter((sponsor) => sponsor.id && sponsor.canPublish === 'Y')
 
-    // Replace image URLs with actual image content
-    return Promise.all(sponsors.map(async (sponsor) => ({
+    return sponsors.map((sponsor) => ({
       ...sponsor,
-      image: await getDriveImage(sponsor.image),
-    })))
+      image: getDriveImage(sponsor.image),
+    }))
   } catch (error) {
     console.error('Error fetching sponsors:', error)
     return []

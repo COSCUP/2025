@@ -5,7 +5,7 @@
     "#*": "./*"
   },
   "engines": {
-    "node": ">=22.14.0"
+    "node": ">=22.18.0"
   },
   "scripts": {
     "gen:pretalx": "openapi-ts",
@@ -16,7 +16,8 @@
     "prepare": "husky",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "type-check": "vue-tsc"
+    "type-check": "vue-tsc",
+    "assets:download": "env-cmd -- node scripts/assets-download.ts"
   },
   "dependencies": {
     "@iconify-json/fa-brands": "1.2.2",
@@ -46,6 +47,7 @@
     "eslint-plugin-format": "1.0.2",
     "husky": "9.1.7",
     "lint-staged": "16.2.3",
+    "sharp": "0.34.5",
     "typescript": "5.9.3",
     "vite": "7.1.9",
     "vue-tsc": "3.1.0"
@@ -54,7 +56,8 @@
     "onlyBuiltDependencies": [
       "vue-demi",
       "unrs-resolver",
-      "esbuild"
+      "esbuild",
+      "sharp"
     ]
   },
   "lint-staged": {
