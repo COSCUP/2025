@@ -1,3 +1,5 @@
+import { conference } from '../data/conference.ts'
+
 interface GoogleSheetResponse {
   majorDimension: string
   range: string
@@ -47,43 +49,30 @@ export async function getGoogleSheet<SheetRow extends Record<string, string>>({
 }
 
 /**
- * The CDN URL for Google Drive images.
+ * Extract the Google Drive file ID from a share URL like
+ * `https://drive.google.com/file/d/{ID}/view`.
  *
- * If you want to self-host this, you might need to set up a
- * [image-compress-server](https://github.com/COSCUP/image-compress-server)
- * instance and point the `DRIVE_IMAGE_CDN` environment variable to it.
- *
- * Set this value to `https://drive.google.com/uc?export=view&id=` to
- * use the Google Drive URL directly if you don't prefer a CDN.
+ * @param imageUrl The Google Drive share URL.
+ * @returns The file ID, or `null` if the URL is not in the expected shape.
  */
-const driveImageCdn = process.env.DRIVE_IMAGE_CDN || 'https://coscup-2025-drive-cache.b-cdn.net/'
+export function extractDriveId(imageUrl: string): string | null {
+  if (!imageUrl) return null
+  const match = imageUrl.match(/\/d\/([^/]+)\//)
+  return match ? match[1] : null
+}
 
 /**
- * Get the optimized Google Drive image URL.
+ * Map a Google Drive share URL to the local WebP asset path produced by
+ * `scripts/assets-download.ts`. Includes the VitePress `base` prefix
+ * (`/${conference.year}`) so the path resolves correctly when the site is
+ * deployed under a subpath. Run the download script to refresh the files in
+ * `content/public/assets/drive/` after the source Google Sheets change.
  *
- * @param imageUrl The URL of the Google Drive image.
- * @returns The absolute path to the optimized image.
+ * @param imageUrl The Google Drive share URL.
+ * @returns The absolute site path to the local WebP, or `''` if `imageUrl` is empty
+ *   or unrecognized.
  */
-export async function getDriveImage(imageUrl: string): Promise<string> {
-  if (!imageUrl) {
-    return ''
-  }
-
-  const getImageID = imageUrl.match(/\/d\/([^/]+)\//)
-  const imageID = getImageID ? getImageID[1] : null
-
-  const optimizedImageUrl = `${driveImageCdn}${imageID}`
-
-  // preload this image so it will be cached, since the
-  // optimization usually takes 2+ seconds to complete
-  try {
-    const response = await fetch(optimizedImageUrl)
-    if (!response.ok) {
-      console.error(`Failed to preload image: ${response.statusText}`)
-    }
-  } catch (error) {
-    console.error('Failed to preload image:', error)
-  }
-
-  return optimizedImageUrl
+export function getDriveImage(imageUrl: string): string {
+  const id = extractDriveId(imageUrl)
+  return id ? `/${conference.year}/assets/drive/${id}.webp` : ''
 }

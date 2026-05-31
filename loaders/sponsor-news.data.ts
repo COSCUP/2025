@@ -43,11 +43,11 @@ async function fetchSponsorsNews(): Promise<SponsorNews[]> {
         }), {} as SponsorNews))
       .filter((sponsor) => sponsor.sponsorId && sponsor.canPublish === 'Y')
 
-    return await Promise.all(sponsors.map(async (sponsor) => ({
+    return sponsors.map((sponsor) => ({
       ...sponsor,
-      'image:horizontal': await getDriveImage(sponsor['image:horizontal']) || '',
-      'image:vertical': await getDriveImage(sponsor['image:vertical']) || '',
-    })))
+      'image:horizontal': getDriveImage(sponsor['image:horizontal']),
+      'image:vertical': getDriveImage(sponsor['image:vertical']),
+    }))
   } catch (error) {
     console.error('Error fetching sponsors:', error)
     return []
